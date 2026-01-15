@@ -1,0 +1,95 @@
+/*****************************
+18 - Components - Promo
+*****************************/
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+====================Promo Section=======================
+::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+.single-promo-item {
+    position: relative;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.promo-img {
+    overflow: hidden;
+}
+
+.promo-img img {
+    width: 100%;
+    height: auto;
+}
+
+.promo-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.promo-content h4 {
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 20px;
+    padding: 0 30px;
+    text-transform: uppercase;
+}
+
+.promo-content a {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    line-height: 30px;
+    height: 30px;
+    border-bottom: 1px solid white;
+    display: inline-block;
+    text-transform: uppercase;
+    transition: .3s ease;
+}
+
+.promo-content a:hover {
+    color: #e5aa21;
+    border-bottom: 1px solid;
+}
+
+.single-promo-item:hover .promo-content h4 {
+    -webkit-animation: fadeAnimate 600ms linear;
+    animation: fadeAnimate 600ms linear;
+}
+
+.single-promo-item:hover .promo-content a {
+    -webkit-animation: fadeAnimate 900ms linear;
+    animation: fadeAnimate 900ms linear;
+}
+
+@media (min-width: 1920px) {
+    .promo-content h4 {
+        font-size: 60px;
+    }
+
+    .promo-content a {
+        font-size: 24px;
+    }
+}
+
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+====================Promo Section - 2==================
+::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+.promo-sub {
+    display: block;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.promo-title {
+    display: block;
+    font-size: 40px;
+}
+
+
+.promo-section--4 .col-12 {
+    padding: 0;
+}

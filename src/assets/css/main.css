@@ -1,0 +1,154 @@
+/******************************
+
+INDEX:
+ 
+	00 - Vendor - Bootstrap
+	01 - Vendor - Fontawesome
+	02 - Vendor - Ionicon
+
+	03 - Plugins - Animate
+	04 - Plugins - ScrollUp
+	05 - Plugins - NiceSelect
+	06 - Plugins - owlCarousel Slider
+	07 - Plugins - Slick SLider
+	08 - Plugins - Slick Nav
+
+    09 - Base - Animation
+    10 - Base - Default
+    11 - Base - Color
+    12 - Base - Typhography
+ 
+	13 - Components - Button
+	14 - Components - Form
+	15 - Components - Slick Slider Customize
+	16 - Components - Slick Nav Customize
+	17 - Components - Hero Slider
+	18 - Components - Promo
+	19 - Components - Podlist Slider
+	20 - Components - Product Catagories
+	21 - Components - Product Segment
+	22 - Components - Testimonial
+	23 - Components - Company Logo Slider
+	24 - Components - CSM
+	25 - Components - Blog
+	26 - Components - Sidebar
+	27 - Components - Quick View
+	28 - Components - Pagination
+	29 - Components - Breadcrumb
+	
+	30 - Layout - Header
+	31 - Layout - Footer
+	32 - Layout - Modal
+	33 - Layout - Custom Column
+
+    34 - Pages - Home - 1
+    35 - Pages - Home - 2
+    36 - Pages - Home - 3
+    37 - Pages - Home - 4
+    38 - Pages - About
+    39 - Pages - Details
+    40 - Pages - Cart
+    41 - Pages - Compare
+    42 - Pages - Shop
+    43 - Pages - My Account
+    44 - Pages - Login
+    45 - Pages - Register
+    46 - Pages - Wishlist
+    47 - Pages - Checkout
+    48 - Pages - Blog Single
+    49 - Pages - Contact
+    50 - Pages - 404
+
+******************************/
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+====================Import=======================
+::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+/* :::::::::::::::: Vendor CSS ::::::::::::::: */
+@import url('vendor/bootstrap.min.css');
+@import url('vendor/fontawesome.min.css');
+@import url('vendor/ionicons.min.css');
+
+/* :::::::::::::::: Plugins CSS ::::::::::::::: */
+@import url('plugins/animate.min.css');
+@import url('plugins/material-scrolltop.css');
+@import url('plugins/nice-select.css');
+@import url('plugins/owl.carousel.min.css');
+@import url('plugins/owl.theme.default.min.css');
+@import url('plugins/slick.css');
+@import url('plugins/slick-theme.css');
+@import url('plugins/slicknav.css');
+
+
+/* :::::::::::::::: Default CSS ::::::::::::::: */
+@import url('base/animation.css');
+@import url('base/base.css');
+@import url('base/color.css');
+@import url('base/typhography.css');
+@import url('base/utilities.css');
+
+/* :::::::::::::::: Component CSS ::::::::::::::: */
+@import url('components/button.css');
+@import url('components/form.css');
+@import url('components/slick-slider-mod.css');
+@import url('components/slick-nav-mod.css');
+@import url('components/hero-slider.css');
+@import url('components/promo.css');
+@import url('components/podlist-slider.css');
+@import url('components/product-catagory.css');
+@import url('components/product-segment.css');
+@import url('components/testimonial.css');
+@import url('components/company-logo.css');
+@import url('components/csm.css');
+@import url('components/blog.css');
+@import url('components/sidebar.css');
+@import url('components/quick-view.css');
+@import url('components/pagination.css');
+@import url('components/breadcrumb.css');
+
+
+/* :::::::::::::::: Layout CSS ::::::::::::::: */
+@import url('layout/header.css');
+@import url('layout/footer.css');
+@import url('layout/modal.css');
+@import url('layout/custom-column.css');
+
+/* :::::::::::::::: Page CSS ::::::::::::::: */
+@import url('pages/index.css');
+@import url('pages/index-2.css');
+@import url('pages/index-3.css');
+@import url('pages/index-4.css');
+
+@import url('pages/about-page.css');
+@import url('pages/details-page.css');
+@import url('pages/cart-page.css');
+@import url('pages/compare-page.css');
+@import url('pages/shop-page.css');
+@import url('pages/my-account.css');
+@import url('pages/log-in.css');
+@import url('pages/register.css');
+@import url('pages/wishlist-page.css');
+@import url('pages/checkout-page.css');
+@import url('pages/blog-single.css');
+@import url('pages/contact-page.css');
+@import url('pages/404-page.css');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,28 @@
+/*****************************
+21 - Components - Product Segment
+*****************************/
+.single-product-segment-item {
+    display: flex;
+    flex-direction: row;
+  }
+  .single-product-segment-thumb {
+    width: 40%;
+    margin-right: 20px;
+  }
+  .single-product-segment-title {
+    color: #555;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+  .single-product-segment-item .rating {
+    margin-bottom: 30px;
+  }
+
+  .single-product-segment-content .quick-add-cart-link{
+      margin: 0;
+  }
+
+
+
+

@@ -1,0 +1,230 @@
+/*****************************
+31 - Layout - Footer
+*****************************/
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+====================FooterSection======================
+::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+#footer-section {
+    background: #252525;
+    color: #fff;
+}
+
+/*::::::::::::::: Footer Top Area ::::::::::::::::::*/
+.footer-contact-top {
+    padding-top: 57px;
+    padding-bottom: 51px;
+}
+
+.single-footer-contact-top-item {
+    display: flex;
+    align-items: center;
+}
+
+.footer-contact-icon {
+    font-size: 48px;
+    color: #e6aa21;
+    margin-right: 15px;
+    line-height: 26px;
+}
+
+.footer-contact-info h5 {
+    font-size: 18px;
+}
+
+.footer-contact-info span {
+    color: #c9c9c9;
+    font-size: 15px;
+}
+
+.single-footer-contact-top-item:hover .footer-contact-icon{
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+.single-footer-contact-top-item:hover .animation-fadeInOut-X{
+    animation-name: fadeInOut-X;
+    animation-timing-function: linear;
+}
+
+.single-footer-contact-top-item:hover .animation-tada{
+    animation-name: tada;
+}
+.single-footer-contact-top-item:hover .animation-rotate360{
+    animation-name: rotate360;
+    animation-timing-function: linear;
+}
+
+/*::::::::::::::: Footer Middle Area ::::::::::::::::::*/
+.footer-middle-area {
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
+    padding-top: 59px;
+    padding-bottom: 53px;
+}
+
+.footer-logo {
+    overflow: hidden;
+    display: inline-block;
+    margin-bottom: 37px;
+}
+
+.footer-logo img {
+    height: auto;
+    max-width: 100%;
+}
+
+.footer-widget p {
+    font-size: 15px;
+    color: #a3a3a3;
+}
+
+.footer-middle-contact-info {
+    margin-top: 20px;
+}
+
+.footer-middle-contact-info h6 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.footer-middle-contact-info span {
+    font-size: 15px;
+    color: #a5a5a5;
+}
+
+.footer-social-link li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-social-link li:last-child {
+    margin-right: 0;
+}
+
+.footer-social-link li a {
+    color: #a2a2a2;
+    font-size: 20px;
+    transition: .3s ease;
+}
+
+.footer-social-link li a:hover {
+    color: #fff;
+}
+
+.footer-social-link {
+    margin-top: 30px;
+}
+
+.footer-widget-title {
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: 36px;
+}
+
+.footer-nav li {
+    display: block;
+}
+
+.footer-nav li a {
+    color: #a2a2a2;
+    padding-left: 15px;
+    position: relative;
+    transition: .6s ease;
+    display: block;
+}
+
+.footer-nav li a::before {
+    position: absolute;
+    content: "\f105";
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    left: 0;
+    font-size: 14px;
+}
+
+.footer-nav li a:hover {
+    transform: translateX(10px);
+}
+
+/*::::::::::::::: Footer Bottom Area ::::::::::::::::::*/
+.footer-bottom-area {
+    padding-top: 57px;
+    padding-bottom: 29px;
+}
+
+.news-letter-subscriprion h5 {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    font-weight: 600;
+}
+
+.news-letter-subs-form {
+    display: flex;
+}
+
+.news-letter-subs-form input,
+.news-letter-subs-form button {
+    border: none;
+    outline: none;
+}
+
+.news-letter-subs-form input {
+    width: 100%;
+    padding: 10px 15px;
+}
+
+.news-letter-subs-form button {
+    font-weight: 700;
+}
+
+.payment-card a {
+    font-size: 48px;
+    margin-right: 30px;
+    color: #a5a5a5;
+    transition: .3s ease;
+    transform: scale(1);
+}
+
+.payment-card a:hover {
+    color: #fff;
+    transform: scale(.9);
+}
+
+.payment-card a:last-child {
+    margin-right: 0;
+}
+
+.payment-card {
+    padding-bottom: 25px;
+    position: relative;
+}
+
+.payment-card.text-end::after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    width: 315px;
+    height: 1px;
+    right: 0;
+    background: #a5a5a5;
+}
+
+.copy-right-text {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #a2a2a2;
+}
+
+.copy-right-text a {
+    color: #fff;
+}
+
+
+.dis-none {
+    display: none;
+}

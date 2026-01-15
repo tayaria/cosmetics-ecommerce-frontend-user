@@ -1,0 +1,3024 @@
+/* .....::::::For Extra Large device:::::..... */
+@media (min-width:1200px) and (max-width:1599px) {
+
+    /*Vartical Column: Extra Large Device*/
+    #left-column.col-xl-2 {
+        max-width: 20%;
+    }
+
+    #right-column.col-xl-10 {
+        max-width: 80%;
+    }
+
+    .single-product-segment-content .box-btn.quick-add-cart-link {
+        padding: 7px;
+    }
+
+    .shop-custom-5-grid {
+        width: 25%;
+    }
+
+    /*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ====================Header Section=======================
+    ::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    .header-section--home-4 .header-top-area .header-top-info {
+        margin-left: 17%;
+    }
+
+    .header-menu .menu-content li .mega-sub-menu {
+        width: 930px;
+        left: 0;
+    }
+
+    .header-menu.header-menu--vertical .menu-content li .mega-sub-menu {
+        width: 840px;
+    }
+
+    .header-menu .menu-content li:nth-last-child(1) .sub-menu li .sub-menu,
+    .header-menu .menu-content li:nth-last-child(2) .sub-menu li .sub-menu,
+    .header-menu .menu-content li:nth-last-child(3) .sub-menu li .sub-menu {
+        right: 0%;
+    }
+
+    .home--4 .main-menu .menu-li-fix {
+        margin-right: 13px;
+        display: inline-block;
+    }
+
+    .home--3 .header-menu .menu-content li,
+    .home--4 .header-menu .menu-content li {
+        padding-right: 16px;
+    }
+
+    .header-menu.header-menu--vertical .menu-content li {
+        padding: 0 15px;
+    }
+
+    .header-menu.header-menu--vertical li a {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    /*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ====================Hero Slider Section=============
+    ::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    .slider-content {
+        left: calc(0% + 120px);
+    }
+
+    #hero-slider .hero-slider-slide .single-hero-slider-item {
+        height: 548px;
+    }
+
+    #hero-slider .hero-slider-slide.hero-slider-2 .single-hero-slider-item {
+        height: 500px;
+    }
+
+    .hero-slider-2 .slider-heading-primary {
+        font-size: 50px;
+        margin-bottom: 50px;
+    }
+
+    /*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ====================Promo Section=======================
+    ::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    .promo-sub {
+        font-size: 18px;
+    }
+
+    .promo-title {
+        font-size: 28px;
+        line-height: 30px;
+    }
+
+    /*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ====================Podlist Slider Section=============
+    ::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    .single-podlist-slider-item {
+        padding: 25px;
+    }
+
+    #quick-view-modal .modal-dialog {
+        max-width: calc(100% - 30px) !important;
+    }
+
+    .custom-col-1-of-2-for-1200 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .custom-col-1-of-1-for-1200 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .custom-col--1 {
+        width: 27.83%;
+    }
+
+    .custom-col--2 {
+        width: 31.83%;
+    }
+
+    .custom-col--3 {
+        width: 40.34%;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+        ================================CSM Section==================================
+    :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    #csm-customer-2 .single-csm-item {
+        padding: 67px 20px 61px 20px;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ================================Compare Page==================================
+    :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    .compare-table .table tbody tr td .product-image-title .product-image img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ================================Blog Grid  Page==================================
+    :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    .recent-post__img--link {
+        margin-right: 0px;
+    }
+
+    .recent-post__img {
+        width: 100%;
+    }
+
+    .recent-post__single {
+        flex-direction: column;
+    }
+
+    .recent-post__content {
+        margin-top: 15px;
+    }
+
+    .recent-post__title {
+        font-size: 16px;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ================================Blog Single  Page==================================
+    :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    .single-recent-blogs .post-meta {
+        flex-direction: column;
+    }
+
+    #new-product-2 {
+        margin-bottom: 0px;
+    }
+
+}
+
+@media (max-width:1579px) {
+    .shop-page-bestseller  .sort-slider-product-name {
+        font-size: 13px;
+    }
+
+    .shop-page-bestseller  .sort-product-price {
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width:1367px) {
+    .top-absolute-sticky-logo {
+        display: none;
+    }
+
+    .header-section--home-4 .header-top-area .header-top-info {
+        margin-left: 0px
+    }
+
+}
+
+@media (min-width:1200px) and (max-width:1299px) {
+    #hero-slider .hero-slider-slide .single-hero-slider-item {
+        height: 505px;
+    }
+
+    #hero-slider .hero-slider-slide.hero-slider-2 .single-hero-slider-item {
+        height: 450px;
+    }
+
+    .single-product-segment-item {
+        flex-direction: column;
+    }
+
+    .single-product-segment-thumb {
+        width: 100%;
+    }
+
+    .single-product-segment-content {
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .footer-contact-info h5 {
+        font-size: 15px;
+    }
+
+    .news-letter-form-2 {
+        padding: 50px 10px 50px 10px;
+    }
+
+    .single-product-segment {
+        margin-bottom: 10px;
+    }
+
+    .product-delivary-info {
+        margin-top: 34px;
+    }
+
+}
+
+@media (min-width:1000px) and (max-width:1299px) {
+    .shop-custom-5-grid {
+        width: 33.3333%;
+    }
+
+}
+
+/* .....::::::For Large device:::::..... */
+@media (min-width:992px) and (max-width:1199px) {
+    .shop-custom-5-grid {
+        width: 33.3333%;
+    }
+
+    /*Vartical Column: Large Device*/
+    #left-column.col-lg-3 {
+        max-width: 25%;
+    }
+
+    #right-column.col-lg-9 {
+        max-width: 75%;
+    }
+
+    .container-fluid.p-lr-80,
+    .container-fluid.p-lr-65 {
+        padding: 0 20px;
+    }
+
+    .title-secondary {
+        font-size: 40px;
+    }
+
+    .pagination-respnsive-margin .pagination {
+        margin-bottom: 80px;
+    }
+
+    /*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ====================Header Section=======================
+    ::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    .top-absolute-sticky-logo {
+        display: none;
+    }
+
+    .header-section--home-4 .header-top-area .header-top-info {
+        margin-left: 0px
+    }
+
+    /*::::::::::::::: Header Main Menu:::::::::::::::::*/
+    .main-menu .menu-li-fix {
+        margin-right: 20px;
+    }
+
+    .header-menu .menu-content li .mega-sub-menu {
+        width: 780px;
+        left: 0;
+        padding: 0px 15px 15px;
+    }
+
+    .header-menu.header-menu--vertical .menu-content li .mega-sub-menu {
+        width: 735px;
+    }
+
+    .header-menu .menu-content li a {
+        font-size: 18px;
+        letter-spacing: .1rem;
+    }
+
+    .header-sticky-area.home--3 .header-menu .menu-content li a,
+    .header-sticky-area.home--4 .header-menu .menu-content li a {
+        font-size: 16px;
+    }
+
+    .header-sticky-area.home--3 .header-menu .menu-content li .sub-menu li a,
+    .header-sticky-area.home--4 .header-menu .menu-content li .sub-menu li a {
+        font-size: 14px;
+    }
+
+    .header-menu .menu-content li:nth-last-child(1) .sub-menu li .sub-menu,
+    .header-menu .menu-content li:nth-last-child(2) .sub-menu li .sub-menu,
+    .header-menu .menu-content li:nth-last-child(3) .sub-menu li .sub-menu {
+        left: auto;
+        right: 100%;
+    }
+
+    .single-megamenu-box {
+        margin-left: 41px;
+    }
+
+    /*::::::::::::::: Header Sticky:::::::::::::::::*/
+    .header-top-info-left div,
+    .header-top-info-right div {
+        margin-right: 18px;
+        position: relative;
+    }
+
+    .header-top-info-left div::after,
+    .header-top-info-right div::after {
+        display: none;
+    }
+
+    .home--3 .header-menu .menu-content li,
+    .home--4 .header-menu .menu-content li {
+        padding-right: 14px;
+    }
+
+    .header-menu.header-menu--vertical .menu-content li {
+        padding: 0 10px;
+    }
+
+    .header-menu.header-menu--vertical .menu-content li a {
+        font-size: 16px;
+        letter-spacing: .1rem;
+        line-height: 60px;
+        height: 60px;
+    }
+
+    /*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ====================Hero Slider Section================
+    ::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    #hero-slider .hero-slider-slide .single-hero-slider-item {
+        height: 415px;
+    }
+
+    .slider-content {
+        left: calc(0% + 120px);
+    }
+
+    .single-hero-slider-item p {
+        font-size: 1.75781vw;
+        margin-bottom: 30px;
+        width: 60%;
+    }
+
+    .single-hero-slider-item a.box-btn {
+        font-size: 14px;
+        padding: 5px 20px;
+    }
+
+    #hero-slider .hero-slider-slide.hero-slider-2 .single-hero-slider-item {
+        height: 390px;
+    }
+
+    .hero-slider-2 .slider-heading-primary {
+        font-size: 38px;
+        margin-bottom: 30px;
+    }
+
+    .hero-slider-2 .slider-content a.box-btn {
+        font-size: 14px;
+        padding: 5px 20px;
+    }
+
+    .hero-slider--3 .slider-content .slider-heading-sub,
+    .hero-slider--4 .slider-content .slider-heading-sub {
+        font-size: 35px;
+    }
+
+    .hero-slider--3 .slider-content .slider-heading-primary,
+    .hero-slider--4 .slider-content .slider-heading-primary {
+        font-size: 48px;
+        margin-top: 7px;
+        margin-bottom: 30px;
+    }
+
+    .hero-slider--3 .slider-content .box-btn,
+    .hero-slider--4 .slider-content .box-btn {
+        font-size: 14px;
+        padding: 5px 20px;
+    }
+
+    /*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ====================Promo Section=======================
+    ::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    .promo-content h4 {
+        font-size: 24px;
+        margin-bottom: 3px;
+    }
+
+    .promo-content a {
+        font-size: 16px;
+    }
+
+    .promo-sub {
+        font-size: 16px;
+    }
+
+    .promo-title {
+        font-size: 24px;
+        line-height: 26px;
+    }
+
+    /*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ====================Podlist Slider Section==============
+    ::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    #podlist-slider-section {
+        padding-top: 59px;
+        margin-bottom: 20px;
+    }
+
+    .single-podlist-slider-item {
+        padding: 25px;
+    }
+
+    .podlist-slider-catagory {
+        font-size: 13px;
+    }
+
+    /*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ====================Product Catagory Section===========
+    ::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    #product-catagory-section {
+        padding-top: 86px;
+        margin-bottom: 50px;
+    }
+
+    #product-catagory-section .product-filter-area {
+        margin-bottom: 23px;
+    }
+
+    .product-filter-area {
+        justify-content: center;
+        font-size: 20px;
+    }
+
+    .product-filter-area li {
+        padding: 5px 0;
+        margin-right: 19px;
+    }
+
+    .overlaps-slickSlider .slick-list {
+        padding-bottom: 100px;
+        margin-bottom: -100px;
+    }
+
+    /*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ====================Testimonial Section================
+    ::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    #testimonial-section {
+        padding-top: 83px;
+        padding-bottom: 90px;
+    }
+
+    .testimonial-items .slick-dots {
+        right: 20px;
+    }
+
+    /*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ====================CSM-Company Section================
+    ::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    .single-csm-item {
+        padding: 55px 20px 50px 20px;
+    }
+
+    #csm-customer-2 .single-csm-item {
+        padding: 0px 9px 66px 9px;
+    }
+
+    /*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ====================FooterSection======================
+    ::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+    /*::::::::::::::: Footer Top Area ::::::::::::::::::*/
+    .single-footer-contact-top-item {
+        flex-direction: column;
+    }
+
+    .footer-contact-info h5 {
+        font-size: 14px;
+    }
+
+    .footer-contact-info {
+        text-align: center;
+    }
+
+    .footer-contact-icon {
+        margin-bottom: 15px;
+    }
+
+    /*::::::::::::::: Footer Middle Area ::::::::::::::::::*/
+    .footer-widget-title {
+        margin-top: 30px;
+        margin-bottom: 8px;
+    }
+
+    /*::::::::::::::: Footer Bottom Area ::::::::::::::::::*/
+    .payment-card.text-end {
+        text-align: right !important;
+        margin-top: 30px;
+    }
+
+    .payment-card a {
+        font-size: 32px;
+    }
+
+    .payment-card.text-end::after {
+        right: 0
+    }
+
+    .copy-right-text.text-end {
+        text-align: right !important;
+    }
+
+    /*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ====================Modal Section======================
+    ::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+    /*::::::::::::::: CheckOut Modal ::::::::::::::::::*/
+    #check-out-modal .modal-dialog {
+        max-width: calc(100% - 30px) !important;
+    }
+
+    .add-cart-modal-img-box {
+        flex-direction: column;
+        padding-right: 0;
+        border-right: none;
+    }
+
+    .add-cart-modal-img {
+        margin-right: 0;
+        margin: 0 auto;
+    }
+
+    .modal-body.add-cart-body {
+        padding: 40px 20px;
+    }
+
+    .modal-content.add-cart-content {
+        height: 100%;
+    }
+
+    .add-cart-img-info {
+        margin-top: 20px;
+    }
+
+    .add-cart-checkout-info-box {
+        margin-top: 20px;
+    }
+
+    .check-out-links a {
+        margin-top: 21px;
+    }
+
+    .check-out-links a:first-child {
+        margin-top: 0;
+    }
+
+    /*::::::::::::::: QUick View Modal ::::::::::::::::::*/
+    #quick-view-modal .modal-dialog {
+        max-width: calc(100% - 30px) !important;
+    }
+
+    .quick-cart-link {
+        display: inline-flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .quick-cart-link.m-b-50 {
+        margin-bottom: 10px;
+    }
+
+    .sort-right div {
+        margin-right: 30px;
+    }
+
+    .box-btn.quick-add-cart-link {
+        padding: 7px 10px;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ================================Homepage - 2 ==================================
+    :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    #recent-blogs {
+        margin-bottom: 90px;
+    }
+
+    #features-product-2 {
+        margin-top: 53px;
+        margin-bottom: 52px;
+    }
+
+    #other-products {
+        margin-top: 90px;
+    }
+
+    #new-product-2 {
+        margin-top: 43px;
+        margin-bottom: 55px;
+    }
+
+    #csm-customer-2 {
+        margin-bottom: 15px;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ================================Homepage - 3 ==================================
+    :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    #our-product-catagory-section {
+        padding-top: 53px;
+        margin-bottom: 44px;
+    }
+
+    #feature-product-catagory-section {
+        margin-bottom: 52px;
+    }
+
+    #recent-blogs-full {
+        padding-top: 53px;
+        margin-bottom: 43px;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ================================Homepage - 4 ==================================
+    :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    #related-product-catagory-section {
+        padding-top: 83px;
+        margin-bottom: 80px;
+    }
+
+    #featured-product-catagory-section {
+        margin-bottom: 50px;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ================================About Page==================================
+    :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    .about-image img {
+        height: 280px;
+    }
+
+    .about-item {
+        margin-top: 44px;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ================================Compare Page==================================
+    :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    .compare-table .table tbody tr td .product-image-title .product-image img {
+        max-width: 220px;
+        height: auto;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ================================Wish list Page==================================
+    :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    .wishlist-table table .product-thumbnail img {
+        max-height: 200px;
+        width: 100%;
+    }
+
+    .wishlist-table table .product-name {
+        min-width: 220px;
+    }
+
+    .wishlist-table table .product-price {
+        min-width: 125px;
+    }
+
+    .wishlist-table table .product-stock-status {
+        min-width: 120px;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ================================404 Page==================================
+    :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    .error-heading__primary {
+        font-size: 180px;
+        line-height: 180px;
+        margin-top: -30px;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ================================Shop Page==================================
+    :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    #shop-page__product-section {
+        margin-top: 85px;
+    }
+
+    #grid-list-sort {
+        margin-bottom: 90px;
+    }
+
+    #bestseller-sort-price-2 {
+        margin-bottom: 50px;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+        ================================Blog Single Page==================================
+        :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    .blog-single-responsive-margin {
+        margin-bottom: 80px;
+    }
+
+    .single__blog--recent-post .single-recent-blogs {
+        margin-bottom: 50px;
+    }
+
+}
+
+@media (max-width:1199px) {
+    .slider-content h1 {
+        font-size: 4.88281vw;
+    }
+
+}
+
+@media  (min-width:992px) and (max-width:999px) {
+    .shop-custom-5-grid {
+        width: 50%;
+    }
+
+}
+
+/* .....::::::For Medium device:::::..... */
+@media (min-width:768px) and (max-width:991px) {
+
+    /*Vartical Column: Medium Device*/
+    #left-column.col-md-4 {
+        max-width: 33.3333%;
+    }
+
+    #right-column.col-md-8 {
+        max-width: 66.6666%;
+    }
+
+    .mobile-menu {
+        display: none;
+    }
+
+    .js .slicknav_menu {
+        display: block;
+    }
+
+    .container-fluid.p-lr-80,
+    .container-fluid.p-lr-65 {
+        padding: 0 20px;
+    }
+
+    .title-secondary {
+        font-size: 38px;
+    }
+
+    .pagination-respnsive-margin .pagination {
+        margin-bottom: 80px;
+    }
+
+    /*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ====================Header Section=======================
+    ::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+    /*::::::::::::::: Header Top:::::::::::::::::*/
+    .header-top-info-left {
+        flex-direction: row;
+        margin-bottom: 10px;
+    }
+
+    .header-top-info {
+        flex-direction: column;
+        height: 90px;
+        padding: 10px 0;
+    }
+
+    .header-top-info-left div::after {
+        display: inherit;
+    }
+
+    .nice-select .list {
+        margin-top: 40px;
+        top: inherit;
+    }
+
+    .header-section--home-3 .header-top-area,
+    .header-section--home-4 .header-top-area {
+        height: 150px;
+    }
+
+    .header-top-info-right.header-top-info-right--home-3,
+    .header-top-info-right.header-top-info-right--home-4 {
+        margin-right: 0;
+        margin-top: 58px;
+    }
+
+    .header-cart.header-cart--home-3,
+    .header-cart.header-cart--home-4 {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translateX(-50%);
+        margin-top: 8px;
+        z-index: 999999999;
+    }
+
+    .header-cart--home-3 .header-cart-deatils,
+    .header-cart--home-4 .header-cart-deatils {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    /*::::::::::::::: Header Sticky:::::::::::::::::*/
+    .header-sticky-area {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .header-logo {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .header-cart {
+        text-align: center;
+    }
+
+    #header-cart-deatils {
+        z-index: 9999999;
+    }
+
+    .home--3 .header-logo,
+    .home--4 .header-logo {
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    .home--4 .header-logo {
+        margin: 0;
+    }
+
+    .header-sticky-area.home--3 {
+        margin: 10px 0;
+    }
+
+    .header-section--home-4 .header-sticky-area {
+        margin-bottom: 0;
+    }
+
+    /*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ====================Hero Slider Section================
+    ::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    #hero-slider .hero-slider-slide .single-hero-slider-item {
+        height: 400px;
+    }
+
+    .slider-content h1 {
+        margin-bottom: 0;
+    }
+
+    .slider-content p {
+        font-size: 16px;
+        margin-bottom: 20px;
+        width: 70%;
+        line-height: normal;
+    }
+
+    .slider-content a.box-btn {
+        font-size: 13px;
+    }
+
+    #hero-slider .owl-nav button {
+        width: 3.90625vw;
+        height: 3.90625vw;
+        line-height: 3.90625vw;
+        font-size: 1.17188vw;
+    }
+
+    .box-btn-lg {
+        padding: 5px 19px;
+    }
+
+    .button-previous.button-slider,
+    .button-next.button-slider {
+        display: none !important;
+    }
+
+    .slider-heading-sub {
+        font-size: 18px !important;
+    }
+
+    .slider-heading-primary {
+        font-size: 30px !important;
+        line-height: normal !important;
+    }
+
+    .hero-slider--home-3 .slider-heading-primary,
+    .hero-slider--home-4 .slider-heading-primary {
+        max-width: 92%;
+        margin-bottom: 10px;
+    }
+
+    #hero-slider .hero-slider-slide.hero-slider-2 .single-hero-slider-item {
+        height: 300px;
+    }
+
+    .hero-slider-2 .slider-heading-sub {
+        font-size: 2.92969vw;
+        margin: 0 0 1.95313vw 0;
+    }
+
+    .hero-slider-2 .slider-heading-primary {
+        font-size: 3.90625vw;
+        margin: 0 0 2.92969vw 0;
+        line-height: 1 !important;
+    }
+
+    .hero-slider-2 .single-hero-slider-item a.box-btn {
+        font-size: 12px !important;
+        padding: 3px 15px !important;
+    }
+
+    .hero-slider--3 .slider-content .slider-heading-sub,
+    .hero-slider--4 .slider-content .slider-heading-sub {
+        font-size: 36px;
+    }
+
+    .hero-slider-slide.hero-slider--3 .slider-heading-primary,
+    .hero-slider-slide.hero-slider--4 .slider-heading-primary {
+        font-size: 38px !important;
+        line-height: 1 !important;
+        margin-top: 7px;
+        margin-bottom: 15px;
+    }
+
+    .hero-slider--3 .slider-content .box-btn,
+    .hero-slider--4 .slider-content .box-btn {
+        font-size: 14px;
+        padding: 5px 20px;
+    }
+
+    /*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ====================Promo Section=======================
+    ::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    .promo-content h4 {
+        font-size: 24px;
+        margin-bottom: 3px;
+    }
+
+    .promo-content a {
+        font-size: 16px;
+    }
+
+    /*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ====================POD slider Section===========
+    ::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    #podlist-slider-section {
+        padding-top: 49px;
+        margin-bottom: 20px;
+    }
+
+    /*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ====================Product Catagory Section===========
+    ::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    #product-catagory-section {
+        padding-top: 76px;
+        margin-bottom: 42px;
+    }
+
+    #product-catagory-section .product-filter-area {
+        margin-bottom: 24px;
+    }
+
+    .product-filter-area {
+        justify-content: center;
+        font-size: 20px;
+    }
+
+    .product-filter-area li {
+        padding: 5px 0;
+    }
+
+    #special-product-2.slider-sort-block {
+        margin-top: 75px;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ====================Testimonial Section================
+    ::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    #testimonial-section {
+        padding-top: 73px;
+        padding-bottom: 69px;
+    }
+
+    .testimonial-us {
+        margin-top: 43px;
+    }
+
+    .testimonial-items .slick-dots {
+        justify-content: flex-end;
+        margin-bottom: 13px;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ====================CSM Section================
+    ::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    #csm-customer .container-fluid.p-lr-45 {
+        padding: 0 40px;
+    }
+
+    .single-csm-item {
+        padding: 67px 15px 61px 15px;
+    }
+
+    #csm-customer-2 .single-csm-item {
+        padding: 0px 0px 61px 0px;
+    }
+
+    /*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ====================FooterSection======================
+    ::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+    /*::::::::::::::: Footer Top Area ::::::::::::::::::*/
+    .single-footer-contact-top-item {
+        flex-direction: column;
+    }
+
+    .footer-contact-info h5 {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .footer-contact-info {
+        text-align: center;
+    }
+
+    .footer-contact-icon {
+        margin-bottom: 15px;
+    }
+
+    /*::::::::::::::: Footer Middle Area ::::::::::::::::::*/
+    .footer-widget-title {
+        margin-top: 30px;
+        margin-bottom: 8px;
+    }
+
+    /*::::::::::::::: Footer Bottom Area ::::::::::::::::::*/
+    .payment-card.text-end {
+        text-align: right !important;
+        margin-top: 30px;
+    }
+
+    .payment-card a {
+        font-size: 32px;
+    }
+
+    .payment-card.text-end::after {
+        right: 0
+    }
+
+    .copy-right-text.text-end {
+        text-align: right !important;
+    }
+
+    /*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ====================Modal Section======================
+    ::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+    /*::::::::::::::: CheckOut Modal ::::::::::::::::::*/
+    #check-out-modal .modal-dialog {
+        max-width: calc(100% - 20px) !important;
+    }
+
+    .check-out-links a.box-btn {
+        margin-bottom: 30px;
+    }
+
+    .check-out-links a.box-btn:last-child {
+        margin-bottom: 0px;
+    }
+
+    /*::::::::::::::: QUick View Modal ::::::::::::::::::*/
+    #quick-view-modal .modal-dialog {
+        max-width: calc(100% - 30px) !important;
+    }
+
+    .quick-cart-link {
+        display: inherit;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .quick-cart-link.m-b-50 {
+        margin-bottom: 50px;
+    }
+
+    .product-quantity-block {
+        margin-bottom: 70px;
+    }
+
+    .quick-add-cart-link {
+        margin-left: 0;
+    }
+
+    #shop-page__product-section .reverse-mod-col {
+        flex-direction: column-reverse;
+    }
+
+    .continue-link {
+        margin-bottom: 40px;
+    }
+
+    .single-sort-slider {
+        margin-bottom: 30px;
+    }
+
+    .product-catagory-sort {
+        margin-top: -27px;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ================================Homepage - 2 ==================================
+    :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    .header-menu--vertical {
+        margin-bottom: 80px;
+    }
+
+    .ad-banner {
+        margin-bottom: 43px;
+    }
+
+    #bestseller-sort-price {
+        margin-bottom: 13px;
+    }
+
+    .news-letter-form-2 {
+        margin-bottom: 42px;
+    }
+
+    #recent-blogs {
+        margin-bottom: 90px;
+    }
+
+    #features-product-2 {
+        margin-top: 43px;
+        margin-bottom: 42px;
+    }
+
+    #other-products {
+        margin-top: 80px;
+    }
+
+    #new-product-2 {
+        margin-top: 43px;
+        margin-bottom: 46px;
+    }
+
+    #csm-customer-2 {
+        margin-bottom: 36px;
+    }
+
+    #csm-customer-2 .single-csm-item {
+        padding-bottom: 35px;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+        ================================Homepage - 3 ==================================
+        :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    #our-product-catagory-section {
+        padding-top: 43px;
+        margin-bottom: 34px;
+    }
+
+    #feature-product-catagory-section {
+        margin-bottom: 42px;
+    }
+
+    #recent-blogs-full {
+        padding-top: 43px;
+        margin-bottom: 33px;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ================================Homepage - 4 ==================================
+    :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    #related-product-catagory-section {
+        padding-top: 73px;
+        margin-bottom: 70px;
+    }
+
+    #featured-product-catagory-section {
+        margin-bottom: 40px;
+    }
+
+    .testimonial-us.m-t-0 {
+        margin-top: 0;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ================================About Page==================================
+    :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    #breadcrumb-section {
+        margin-bottom: 80px;
+    }
+
+    .about-image img {
+        height: 430px;
+    }
+
+    .about-item {
+        margin-top: 44px;
+    }
+
+    .about-content .title-secondary {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .about-item .title-tertiary {
+        margin-bottom: 24px;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ================================Checkout Page==================================
+    :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    #checkout-section {
+        padding-bottom: 80px;
+    }
+
+    .checkout-area {
+        margin-top: -7px;
+        margin-bottom: 80px;
+    }
+
+    .billing-address .title-tertiary {
+        margin-bottom: -10px;
+    }
+
+    .checkout-total-wrapper .title-tertiary {
+        margin-top: 42px;
+    }
+
+    .checkout-total-wrapper .title-tertiary,
+    .checkout-payment-wrapper .title-tertiary {
+        margin-bottom: 32px;
+    }
+
+    #checkout-section .product-delivary-info {
+        margin-bottom: 0;
+        margin-top: 40px;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ================================Compare Page==================================
+    :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    .compare-page {
+        margin-bottom: 80px;
+    }
+
+    .compare-table .table tbody tr td .product-image-title .product-image img {
+        max-width: 200px;
+        height: auto;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ================================Wish list Page==================================
+    :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    .wishlist-section {
+        margin-bottom: 80px;
+    }
+
+    .wishlist-table table .product-thumbnail img {
+        max-height: 100px;;
+        width: auto;
+    }
+
+    .wishlist-table table .product-name {
+        min-width: 200px;
+    }
+
+    .wishlist-table table .product-price {
+        min-width: 100px;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ================================My account Page==================================
+    :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    .my-account-area {
+        margin-bottom: 80px;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ================================Contact Page==================================
+    :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    .contact-info-box {
+        margin-top: 60px;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+        ================================Login Page==================================
+        :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    .login-area {
+        margin-bottom: 80px;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+        ================================Register Page==================================
+        :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    .register-area {
+        margin-bottom: 80px;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ================================Blog List Page==================================
+    :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    .blog-item__postmeta--md-m-t-30 {
+        margin-top: 30px;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ================================404 Page==================================
+    :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    #error-404-section {
+        margin-bottom: 80px;
+    }
+
+    .error-heading__primary {
+        font-size: 160px;
+        line-height: 160px;
+        margin-top: -28px;
+    }
+
+    .error-heading__secondary {
+        font-size: 28px;
+        line-height: 28px;
+    }
+
+    /*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ================================Shop Page==================================
+    ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    #shop-page__product-section {
+        margin-top: -5px;
+    }
+
+    #grid-list-sort {
+        margin-bottom: 80px;
+    }
+
+    #bestseller-sort-price-2 {
+        margin-bottom: 50px;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ================================Blog List Page==================================
+    :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    .blog-responsive-margin {
+        margin-bottom: 80px;
+    }
+
+    .blog-item {
+        margin-bottom: 38px;
+    }
+
+    .blog-item__postmeta--md-m-t-30 {
+        margin-top: 30px;
+    }
+
+    .page-nav.m-b-100 {
+        margin-bottom: 80px;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+        ================================Blog Single Page==================================
+        :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    .blog-single-responsive-margin {
+        margin-bottom: 80px;
+    }
+
+    .single__blog--recent-post .single-recent-blogs {
+        margin-bottom: 50px;
+    }
+
+}
+
+@media  (min-width:890px) and (max-width:991px) {
+    .shop-custom-5-grid {
+        width: 25%;
+    }
+
+}
+
+@media  (min-width:690px) and (max-width:889px) {
+    .shop-custom-5-grid {
+        width: 33.3333%;
+    }
+
+}
+
+@media  (min-width:480px) and (max-width:689px) {
+    .shop-custom-5-grid {
+        width: 50%;
+    }
+
+}
+
+/* .....::::::For Small Medium device:::::..... */
+@media (max-width:767px) {
+    .mobile-menu {
+        display: none;
+    }
+
+    .js .slicknav_menu {
+        display: block;
+    }
+
+    .container-fluid.p-lr-80,
+    .container-fluid.p-lr-65 {
+        padding: 0 20px;
+    }
+
+    .title-secondary {
+        font-size: 38px;
+    }
+
+    .pagination-respnsive-margin .pagination {
+        margin-bottom: 80px;
+    }
+
+    /*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ====================Header Section=======================
+    ::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+    /*::::::::::::::: Header Top:::::::::::::::::*/
+    .header-top-info-left {
+        flex-direction: row;
+        margin-bottom: 10px;
+    }
+
+    .header-top-info {
+        flex-direction: column;
+        height: 90px;
+        padding: 10px 0;
+    }
+
+    .header-top-info-left div::after {
+        display: inherit;
+    }
+
+    .nice-select .list {
+        margin-top: 40px;
+        top: inherit;
+    }
+
+    .header-section--home-3 .header-top-area,
+    .header-section--home-4 .header-top-area {
+        height: 150px;
+    }
+
+    .header-top-info-right.header-top-info-right--home-3,
+    .header-top-info-right.header-top-info-right--home-4 {
+        margin-right: 0;
+        margin-top: 60px;
+    }
+
+    .header-cart.header-cart--home-3,
+    .header-cart.header-cart--home-4 {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translateX(-50%);
+        margin-top: 8px;
+        z-index: 999999999;
+    }
+
+    .header-cart--home-3 .header-cart-deatils,
+    .header-cart--home-4 .header-cart-deatils {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    /*::::::::::::::: Header Sticky:::::::::::::::::*/
+    .header-sticky-area {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .header-sticky-area.is-sticky {
+        position: relative;
+    }
+
+    .mobile-row-reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .header-logo {
+        text-align: center;
+        margin-bottom: 30px
+    }
+
+    .home--3 .header-logo,
+    .home--4 .header-logo {
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .header-cart {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .header-cart-deatils {
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 9999999;
+    }
+
+    /*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ====================Hero Slider Section================
+    ::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    #hero-slider .hero-slider-slide .single-hero-slider-item {
+        height: 300px;
+        background-position: center;
+    }
+
+    .single-hero-slider-item h1 {
+        font-size: 30px;
+    }
+
+    .slider-content {
+        margin: 0 20px;
+    }
+
+    .single-hero-slider-item p {
+        font-size: 16px;
+        line-height: normal;
+        margin-bottom: 15px;
+        width: 60%;
+    }
+
+    .slider-content .box-btn {
+        font-size: 14px;
+        padding: 2.5px 10px;
+    }
+
+    #hero-slider .hero-slider-slide.hero-slider-2 .single-hero-slider-item {
+        height: 330px;
+    }
+
+    .hero-slider-2 .slider-heading-primary {
+        font-size: 34px;
+        margin-bottom: 28px;
+    }
+
+    .hero-slider-2 .slider-heading-sub {
+        font-size: 22px;
+    }
+
+    .hero-slider--3 .slider-content .slider-heading-sub,
+    .hero-slider--4 .slider-content .slider-heading-sub {
+        font-size: 22px;
+    }
+
+    .hero-slider-slide.hero-slider--3 .slider-heading-primary,
+    .hero-slider-slide.hero-slider--4 .slider-heading-primary {
+        font-size: 32px !important;
+        line-height: 1 !important;
+        margin-top: 7px;
+        margin-bottom: 15px;
+    }
+
+    .hero-slider--3 .slider-content .box-btn,
+    .hero-slider--4 .slider-content .box-btn {
+        font-size: 14px;
+        padding: 5px 20px;
+    }
+
+    /*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ====================Promo Section=======================
+    ::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    .promo-content h4 {
+        font-size: 40px;
+        margin-bottom: 3px;
+    }
+
+    .promo-content a {
+        font-size: 18px;
+    }
+
+    .promo-img img {
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+    }
+
+    .promo-img.promo-img-banner img {
+        height: 100%;
+    }
+
+    /*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ====================Product Catagory Section===========
+    ::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    #podlist-slider-section {
+        padding-top: 29px;
+    }
+
+    #product-catagory-section .product-filter-area {
+        margin-bottom: 20px;
+    }
+
+    .product-filter-area {
+        justify-content: center;
+        font-size: 20px;
+    }
+
+    .product-filter-area li {
+        padding: 5px 0;
+    }
+
+    #product-catagory-section {
+        padding-top: 56px;
+        margin-bottom: 22px;
+    }
+
+    .dataTab-style2 .slick-arrow {
+        top: -75px;
+    }
+
+    .product-filter-area.product-filter__home-3 {
+        margin-top: 14px;
+        text-align: center;
+        justify-content: flex-start;
+    }
+
+    #our-product-catagory-section.p-t-50 {
+        padding-top: 0;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ====================Testimonial Section================
+    ::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    #testimonial-section {
+        padding-top: 53px;
+        padding-bottom: 60px;
+    }
+
+    .testimonial-us {
+        margin-top: 43px;
+    }
+
+    .testimonial-items .slick-dots {
+        margin-bottom: 13px;
+    }
+
+    /*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ====================CSM-Company Section================
+    ::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    #csm-customer {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    #csm-customer .container-fluid.p-lr-45 {
+        padding: 0px 15px;
+    }
+
+    #csm-customer .col-md-4 {
+        border: none;
+    }
+
+    .single-csm-item {
+        padding: 20px 25px 30px 25px;
+    }
+
+    #csm-customer-2 .single-csm-item {
+        padding: 0px 25px 65px 25px
+    }
+
+    /*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ====================FooterSection======================
+    ::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+    /*::::::::::::::: Footer Top Area ::::::::::::::::::*/
+    .single-footer-contact-top-item {
+        margin-bottom: 32px;
+    }
+
+    .footer-contact-top {
+        padding-top: 57px;
+        padding-bottom: 21px;
+    }
+
+    .footer-contact-info h5 {
+        font-size: 16px;
+    }
+
+    /*::::::::::::::: Footer Middle Area ::::::::::::::::::*/
+    .footer-widget-title {
+        margin-top: 30px;
+        margin-bottom: 8px;
+    }
+
+    /*::::::::::::::: Footer Bottom Area ::::::::::::::::::*/
+    .payment-card.text-end {
+        text-align: left !important;
+        margin-top: 30px;
+    }
+
+    .payment-card {
+        padding-bottom: 24px;
+        position: relative;
+    }
+
+    .payment-card a {
+        font-size: 32px;
+    }
+
+    .payment-card.text-end::after {
+        left: 0
+    }
+
+    .copy-right-text.text-end {
+        text-align: left !important;
+    }
+
+    /*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ====================Modal Section======================
+    ::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+    /*::::::::::::::: CheckOut Modal ::::::::::::::::::*/
+    .add-cart-modal-img-box {
+        flex-direction: column;
+        padding-right: 0;
+        border-right: none;
+    }
+
+    .add-cart-modal-img {
+        text-align: center;
+    }
+
+    .modal-body.add-cart-body {
+        padding: 40px 20px;
+    }
+
+    .modal-content.add-cart-content {
+        height: 100%;
+    }
+
+    .add-cart-img-info {
+        margin-top: 20px;
+    }
+
+    .add-cart-checkout-info-box {
+        margin-top: 20px;
+    }
+
+    .check-out-links a {
+        margin-top: 21px;
+    }
+
+    .check-out-links a:first-child {
+        margin-top: 0;
+    }
+
+    #check-out-modal .modal-dialog {
+        max-width: calc(100% - 20px) !important;
+    }
+
+    .add-cart-border-right {
+        border-right: none;
+    }
+
+    /*::::::::::::::: QUick View Modal ::::::::::::::::::*/
+    #quick-view-modal .modal-dialog {
+        max-width: calc(100% - 30px) !important;
+        margin: 20px auto;
+    }
+
+    .quick-cart-link {
+        display: inline-flex;
+        flex-direction: column;
+    }
+
+    .quick-cart-link.m-b-50 {
+        margin-bottom: 10px;
+    }
+
+    .product-quantity-block {
+        margin-bottom: 70px;
+    }
+
+    .quick-add-cart-link {
+        margin: 0;
+        margin-bottom: 30px;
+    }
+
+    .quick-view-info-box {
+        margin-top: 44px;
+    }
+
+    .reverse-mod-col {
+        flex-direction: column-reverse;
+    }
+
+    .sort-right {
+        margin-top: 13px;
+        justify-content: flex-start;
+    }
+
+    #checkout-section {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .continue-link {
+        margin-bottom: 40px;
+    }
+
+    .single-sort-slider {
+        overflow: hidden;
+        display: flex;
+        margin-bottom: 30px;
+    }
+
+    .product-catagory-sort {
+        margin-top: -5px;
+    }
+
+    #grid-list-sort .single-product-catagory-item-list-grid:last-child {
+        margin-bottom: 50px;
+    }
+
+    .custom-col--1 {
+        width: 100% !important;
+    }
+
+    .custom-col--2 {
+        width: 100% !important;
+    }
+
+    .custom-col--3 {
+        width: 100% !important;
+    }
+
+    .product-details-tab-click li {
+        padding-bottom: 20px;
+    }
+
+    #area-wrapper .reverse-mod-col {
+        flex-direction: column-reverse;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ================================Homepage - 2 ==================================
+    :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    .header-menu--vertical {
+        margin-bottom: 60px;
+    }
+
+    .ad-banner {
+        margin-bottom: 53px;
+    }
+
+    #bestseller-sort-price {
+        margin-bottom: 22px;
+    }
+
+    .news-letter-form-2 {
+        margin-bottom: 53px;
+    }
+
+    #recent-blogs {
+        margin-bottom: 50px;
+    }
+
+    #features-product-2 {
+        margin-top: 23px;
+        margin-bottom: 22px;
+    }
+
+    #other-products {
+        margin-top: 60px;
+    }
+
+    #special-product-2.slider-sort-block {
+        margin-top: 53px;
+    }
+
+    #new-product-2 {
+        margin-top: 23px;
+        margin-bottom: 25px;
+    }
+
+    #csm-customer-2 {
+        margin-bottom: 16px;
+    }
+
+    #csm-customer-2 .single-csm-item {
+        padding-bottom: 35px;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+        ================================Homepage - 3 ==================================
+        :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    #our-product-catagory-section {
+        padding-top: 23px;
+        margin-bottom: 14px;
+    }
+
+    #feature-product-catagory-section {
+        margin-bottom: 22px;
+    }
+
+    #recent-blogs-full {
+        padding-top: 23px;
+        margin-bottom: 13px;
+    }
+
+    .blog-title {
+        font-size: 19px;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ================================Homepage - 4 ==================================
+    :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    #related-product-catagory-section {
+        padding-top: 53px;
+        margin-bottom: 50px;
+    }
+
+    #featured-product-catagory-section {
+        margin-bottom: 20px;
+    }
+
+    .testimonial-us.m-t-0 {
+        margin-top: 0;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ================================About Page==================================
+    :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    #breadcrumb-section {
+        margin-bottom: 60px;
+    }
+
+    .about-image img {
+        height: 400px;
+    }
+
+    .about-item {
+        margin-top: 44px;
+    }
+
+    .about-content .title-secondary {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .about-item .title-tertiary {
+        margin-bottom: 24px;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ================================Checkout Page==================================
+    :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    #checkout-section {
+        padding-bottom: 60px;
+    }
+
+    .checkout-area {
+        margin-top: -7px;
+        margin-bottom: 60px;
+    }
+
+    .billing-address .title-tertiary {
+        margin-bottom: -10px;
+    }
+
+    .checkout-total-wrapper .title-tertiary {
+        margin-top: 42px;
+    }
+
+    .checkout-total-wrapper .title-tertiary,
+    .checkout-payment-wrapper .title-tertiary {
+        margin-bottom: 32px;
+    }
+
+    #checkout-section .product-delivary-info {
+        margin-bottom: 0;
+        margin-top: 50px;
+    }
+
+    .checkout-payment-wrapper {
+        margin-top: 53px;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ================================Checkout Page==================================
+    :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    #checkout-section {
+        padding-bottom: 60px;
+        padding-top: 0;
+    }
+
+    .checkout-total-wrapper .title-tertiary {
+        margin-top: 40px;
+    }
+
+    #checkout-section .product-delivary-info {
+        margin-bottom: 0;
+        margin-top: 40px;
+    }
+
+    .checkout-payment-wrapper {
+        margin-top: 43px;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ================================Compare Page==================================
+    :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    .compare-page {
+        margin-bottom: 60px;
+    }
+
+    .compare-table .table tbody tr td .product-image-title .product-image img {
+        max-width: 200px;
+        height: auto;
+    }
+
+    .compare-table .table tbody tr td .description {
+        font-size: 14px;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ================================Wish list Page==================================
+    :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    .wishlist-section {
+        margin-bottom: 60px;
+    }
+
+    .wishlist-table table .product-thumbnail img {
+        height: 100px;
+    }
+
+    .wishlist-table table .product-name {
+        min-width: 200px;
+    }
+
+    .wishlist-table table .product-price {
+        min-width: 100px;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ================================My account Page==================================
+    :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    .my-account-area {
+        margin-bottom: 60px;
+    }
+
+    .my-account-tab {
+        margin-top: 60px;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ================================Contact Page==================================
+    :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    #contact-section {
+        margin-bottom: 60px;
+    }
+
+    .contact-info-box {
+        margin-top: 60px;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ================================Login Page==================================
+    :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    .login-area {
+        margin-bottom: 60px;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ================================Register Page==================================
+    :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    .register-area {
+        margin-bottom: 60px;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ================================404 Page==================================
+    :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    #error-404-section {
+        margin-bottom: 60px;
+    }
+
+    .error-heading__primary {
+        font-size: 160px;
+        line-height: 160px;
+        margin-top: -28px;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ================================Blog List Page==================================
+    :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    .blog-responsive-margin,
+    .blog-single-responsive-margin {
+        margin-bottom: 60px;
+    }
+
+    .blog-item {
+        margin-bottom: 38px;
+    }
+
+    .blog-item__postmeta--md-m-t-30 {
+        margin-top: 30px;
+    }
+
+    .page-nav.m-b-100 {
+        margin-bottom: 60px;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ================================Blog Single  Page==================================
+    :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    .blog-single__content-footer {
+        flex-direction: column;
+    }
+
+    .blog-single__content-footer div~div {
+        margin-top: 20px;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ================================404 Page==================================
+    :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    .error-heading__primary {
+        font-size: 160px;
+        line-height: 160px;
+    }
+
+    .error-heading__secondary {
+        font-size: 28px;
+        line-height: 28px;
+    }
+
+    .error-heading__text {
+        font-size: 18px
+    }
+
+    #recent-blogs.m-t-45 {
+        margin-top: 0
+    }
+
+    /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ================================Shop Page==================================
+    :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    #shop-page__product-section {
+        margin-top: 65px;
+    }
+
+    #grid-list-sort {
+        margin-bottom: 60px;
+    }
+
+    #bestseller-sort-price-2 {
+        margin-bottom: 30px;
+    }
+
+    /*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ================================Details Page==================================
+    ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    #product-tab-list-section {
+        padding-top: 52px;
+    }
+
+    .product-delivary-info {
+        margin-top: 30px;
+    }
+
+    .product-catagory-section-1-row-80.p-t-80 {
+        padding-top: 60px;
+    }
+
+    .product-catagory-section-1-row-80 {
+        margin-bottom: 20px;
+    }
+
+    #product-details-info-content {
+        margin-top: 30px;
+    }
+
+    .product-list-title {
+        margin-bottom: 12px;
+    }
+
+}
+
+/* .....::::::For Small device:::::..... */
+@media (max-width:575px) {
+    .mobile-menu {
+        display: none;
+    }
+
+    .js .slicknav_menu {
+        display: block;
+    }
+
+    .container-fluid.p-lr-80,
+    .container-fluid.p-lr-65 {
+        padding: 0 20px;
+    }
+
+    .title-secondary {
+        font-size: 36px;
+    }
+
+    /*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ====================Header Section=======================
+    ::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+    /*::::::::::::::: Header Top:::::::::::::::::*/
+    .header-top-info-left {
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .header-top-info {
+        flex-direction: column;
+        height: 120px;
+        padding: 10px 0;
+    }
+
+    .header-top-info-left div::after {
+        display: none;
+    }
+
+    .nice-select .list {
+        margin-top: 38px;
+        top: inherit;
+    }
+
+    .header-cart.header-cart--home-3,
+    .header-cart.header-cart--home-4 {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translateX(-50%);
+        margin-top: 25px;
+        z-index: 999999999;
+    }
+
+    .header-top-info-right.header-top-info-right--home-3,
+    .header-top-info-right.header-top-info-right--home-4 {
+        margin-right: 0;
+        margin-top: 60px;
+    }
+
+    .header-section--home-3 .header-top-area,
+    .header-section--home-4 .header-top-area {
+        height: 180px;
+    }
+
+    /*::::::::::::::: Header Sticky:::::::::::::::::*/
+    .header-sticky-area {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .header-sticky-area.is-sticky {
+        position: relative;
+    }
+
+    .mobile-row-reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .header-logo {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .header-cart {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    #header-cart-deatils {
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 9999999;
+    }
+
+    /*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ====================Hero Slider Section================
+    ::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    #hero-slider .hero-slider-slide .single-hero-slider-item {
+        height: 300px;
+        background-position: center;
+    }
+
+    .single-hero-slider-item h1 {
+        font-size: 32px;
+    }
+
+    .slider-content {
+        left: calc(0% + 20px);
+    }
+
+    .single-hero-slider-item p {
+        font-size: 15px;
+        line-height: normal;
+        margin-bottom: 15px;
+        width: 90%;
+    }
+
+    .slider-content .box-btn {
+        font-size: 10px;
+        padding: 0px 10px;
+        font-weight: 500
+    }
+
+    .button-previous.button-slider,
+    .button-next.button-slider {
+        display: none !important;
+    }
+
+    #hero-slider .hero-slider-slide.hero-slider-2 .single-hero-slider-item {
+        height: 280px;
+    }
+
+    .hero-slider-2 .slider-heading-sub {
+        font-size: 20px;
+        display: block;
+        font-weight: 400;
+        color: #fff;
+    }
+
+    .hero-slider-2 .slider-heading-primary {
+        color: #fff;
+        font-weight: 400;
+        font-size: 30px;
+    }
+
+    .hero-slider--home-3 .slider-heading-sub,
+    .hero-slider--home-4 .slider-heading-sub {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+
+    .hero-slider--home-3 .slider-heading-primary,
+    .hero-slider--home-4 .slider-heading-primary {
+        max-width: 92%;
+        margin-bottom: 20px;
+    }
+
+    .hero-slider-2 .slider-heading-primary {
+        margin-bottom: 20px;
+    }
+
+    .hero-slider--3 .slider-content .slider-heading-sub,
+    .hero-slider--4 .slider-content .slider-heading-sub {
+        font-size: 18px;
+    }
+
+    .hero-slider-slide.hero-slider--3 .slider-heading-primary,
+    .hero-slider-slide.hero-slider--4 .slider-heading-primary {
+        font-size: 26px !important;
+        line-height: 1 !important;
+        margin-top: 7px;
+        margin-bottom: 15px;
+    }
+
+    /*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ====================Promo Section=======================
+    ::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    .promo-img img {
+        height: 400px;
+    }
+
+    .promo-content h4 {
+        font-size: 40px;
+        margin-bottom: 3px;
+    }
+
+    .promo-content a {
+        font-size: 18px;
+    }
+
+    /*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ====================Product Catagory Section===========
+    ::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    .product-filter-area {
+        text-align: center;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ====================Testimonial Section================
+    ::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    .testimonial-us {
+        margin-top: 43px;
+    }
+
+    /*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ====================CSM-Company Section================
+    ::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    #csm-customer .col-md-4 {
+        border: none;
+    }
+
+    .single-csm-item {
+        padding: 20px 30px 30px 30px;
+    }
+
+    /*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ====================FooterSection======================
+    ::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+    /*::::::::::::::: Footer Top Area ::::::::::::::::::*/
+    .single-footer-contact-top-item {
+        margin-bottom: 32px;
+    }
+
+    /*::::::::::::::: Footer Middle Area ::::::::::::::::::*/
+    .footer-middle-area {
+        padding-top: 60px;
+        padding-bottom: 51px;
+    }
+
+    .footer-widget-title {
+        margin-top: 30px;
+        margin-bottom: 8px;
+    }
+
+    /*::::::::::::::: Footer Bottom Area ::::::::::::::::::*/
+    .footer-bottom-area {
+        padding-top: 56px;
+        padding-bottom: 32px;
+    }
+
+    .payment-card.text-end {
+        text-align: left !important;
+        margin-top: 30px;
+    }
+
+    .payment-card a {
+        font-size: 32px;
+    }
+
+    .payment-card.text-end::after {
+        left: 0
+    }
+
+    .copy-right-text.text-end {
+        text-align: left !important;
+    }
+
+    /*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ====================Modal Section======================
+    ::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+    /*::::::::::::::: CheckOut Modal ::::::::::::::::::*/
+    .add-cart-modal-img-box {
+        flex-direction: column;
+        padding-right: 0;
+        border-right: none;
+    }
+
+    .add-cart-modal-img {
+        margin-right: 0;
+        margin: 0 auto;
+    }
+
+    .modal-body.add-cart-body {
+        padding: 40px 20px;
+    }
+
+    .modal-content.add-cart-content {
+        height: 100%;
+    }
+
+    .add-cart-img-info {
+        margin-top: 20px;
+    }
+
+    .add-cart-checkout-info-box {
+        margin-top: 20px;
+    }
+
+    .check-out-links a {
+        margin-top: 21px;
+    }
+
+    .check-out-links a:first-child {
+        margin-top: 0;
+    }
+
+    #check-out-modal .modal-dialog {
+        max-width: 100% !important;
+    }
+
+    /*::::::::::::::: QUick View Modal ::::::::::::::::::*/
+    .quick-cart-link {
+        display: inline-flex;
+        flex-direction: column;
+    }
+
+    .product-quantity-block {
+        margin-bottom: 70px;
+    }
+
+    .quick-cart-link a {
+        margin: 0;
+        margin-bottom: 30px;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ================================Product Cart Page==================================
+    :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+    /*:::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    =====================Product Cart Section=============
+    ::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    .product-line-grid-body {
+        margin-bottom: 30px;
+    }
+
+    .product-image.media-middle {
+        margin-bottom: 30px;
+    }
+
+    .product-price-quantity-block {
+        justify-content: space-evenly;
+    }
+
+    .cart-items li {
+        position: relative;
+    }
+
+    .cart-items li::after {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 1px;
+        background: rgba(0, 0, 0, .125);
+        bottom: calc(0% - 9px);
+        left: 0;
+    }
+
+    .cart-items li:last-child::after {
+        background: none;
+    }
+
+    .product-catagory-grid-list-title {
+        margin-top: 25px;
+    }
+
+    .sort-slide-7 .post-meta {
+        flex-direction: column;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ================================About Page==================================
+    :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    .about-image img {
+        height: 360px;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ================================Compare Page==================================
+    :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    .compare-table .table tbody tr td .product-image-title .product-image img {
+        max-width: 165px;
+        height: auto;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ================================Blog Grid  Page==================================
+    :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    .blog-item__title {
+        font-size: 28px;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ================================Blog Single  Page==================================
+    :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    .blog-comment-item~.blog-comment__reply-box {
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+
+    .blog-single__content-footer {
+        flex-direction: column;
+    }
+
+    .blog-single__content-footer div~div {
+        margin-top: 20px;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ================================404 Single  Page==================================
+    :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    .error-heading__primary {
+        font-size: 120px;
+        line-height: 120px;
+        margin-top: -20px;
+    }
+
+    .error-heading__secondary {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .error-heading__text {
+        font-size: 18px
+    }
+
+}
+
+/* .....::::::For Extra Small device:::::..... */
+@media (max-width:479px) {
+    .shop-custom-5-grid {
+        width: 100%;
+    }
+
+    .mobile-menu {
+        display: none;
+    }
+
+    .js .slicknav_menu {
+        display: block;
+    }
+
+    .container-fluid.p-lr-80,
+    .container-fluid.p-lr-65 {
+        padding: 0 20px;
+    }
+
+    .title-secondary {
+        font-size: 34px;
+    }
+
+    /*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ====================Header Section=======================
+    ::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+    /*::::::::::::::: Header Top:::::::::::::::::*/
+    .header-top-info-left {
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .header-top-info {
+        flex-direction: column;
+        height: 120px;
+        padding: 10px 0;
+    }
+
+    .header-top-info-left div::after {
+        display: none;
+    }
+
+    .nice-select .list {
+        margin-top: 40px;
+        top: inherit;
+    }
+
+    /*::::::::::::::: Header Sticky:::::::::::::::::*/
+    .header-sticky-area {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .header-sticky-area.is-sticky {
+        position: relative;
+    }
+
+    .mobile-row-reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .header-logo {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .header-cart {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    #header-cart-deatils {
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 9999999;
+    }
+
+    .header-cart.header-cart--home-4 #add_cart_open {
+        color: #fff;
+        padding: 10px 10px;
+    }
+
+    .header-cart.header-cart--home-4 {
+        width: max-content;
+    }
+
+    .header-cart.header-cart--home-3 .add_cart_open,
+    .header-cart.header-cart--home-4 .add_cart_open {
+        padding: 8px 5px;
+    }
+
+    /*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ====================Hero Slider Section================
+    ::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    .single-hero-slider-item {
+        height: 285px;
+        position: relative;
+    }
+
+    .single-hero-slider-item h1 {
+        font-size: 32px;
+    }
+
+    .slider-content {
+        left: calc(0% + 20px);
+    }
+
+    .single-hero-slider-item p {
+        font-size: 14px;
+        line-height: normal;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .hero-slider-slide .slider-content .box-btn.box-btn-lg {
+        font-size: 12px;
+        padding: 0px 10px;
+        font-weight: 600;
+    }
+
+    .button-previous.button-slider,
+    .button-next.button-slider {
+        display: none !important;
+    }
+
+    #hero-slider .hero-slider-slide.hero-slider-2 .single-hero-slider-item {
+        height: 280px;
+    }
+
+    .hero-slider-2 .slider-heading-sub {
+        font-size: 14px;
+    }
+
+    .hero-slider-2 .slider-heading-primary {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .hero-slider--3 .slider-content .slider-heading-sub {
+        font-size: 16px;
+    }
+
+    .hero-slider-slide.hero-slider--3 .slider-heading-primary {
+        font-size: 24px !important;
+        line-height: 1 !important;
+        margin-top: 7px;
+        margin-bottom: 15px;
+    }
+
+    /*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ====================Promo Section=======================
+    ::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    .promo-content h4 {
+        font-size: 18px;
+        margin-bottom: 3px;
+    }
+
+    .promo-content a {
+        font-size: 14px;
+    }
+
+    .promo-img img {
+        width: 100%;
+        height: 320px;
+        object-fit: cover;
+    }
+
+    .promo-sub {
+        font-size: 18px;
+    }
+
+    .promo-title {
+        font-size: 28px;
+        line-height: 30px;
+    }
+
+    /*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ====================Product Catagory Section===========
+    ::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    .product-filter-area.product-filter__home-3 {
+        justify-content: start;
+    }
+
+    .product-filter-area li {
+        padding: 5px 0;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ====================Testimonial Section================
+    ::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    .testimonial-us {
+        margin-top: 43px;
+    }
+
+    /*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ====================CSM-Company Section================
+    ::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    #csm-customer {
+        padding-top: 80px;
+        padding-bottom: 10px;
+    }
+
+    #csm-customer .col-md-4 {
+        border: none;
+    }
+
+    #csm-customer .container-fluid.p-lr-45 {
+        padding: 0 20px;
+    }
+
+    .single-csm-item {
+        padding: 0px 15px 61px 15px;
+    }
+
+    /*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ====================FooterSection======================
+    ::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+    /*::::::::::::::: Footer Top Area ::::::::::::::::::*/
+    .single-footer-contact-top-item {
+        margin-bottom: 32px;
+    }
+
+    /*::::::::::::::: Footer Middle Area ::::::::::::::::::*/
+    .footer-widget-title {
+        margin-top: 30px;
+        margin-bottom: 8px;
+    }
+
+    /*::::::::::::::: Footer Bottom Area ::::::::::::::::::*/
+    .payment-card.text-end {
+        text-align: center !important;
+        margin-top: 30px;
+    }
+
+    .payment-card a {
+        font-size: 32px;
+    }
+
+    .payment-card.text-end::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .copy-right-text.text-end {
+        text-align: center !important;
+    }
+
+    /*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ====================Modal Section======================
+    ::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+    /*::::::::::::::: CheckOut Modal ::::::::::::::::::*/
+    .add-cart-modal-img-box {
+        flex-direction: column;
+        padding-right: 0;
+        border-right: none;
+    }
+
+    .add-cart-modal-img {
+        margin-right: 0;
+        margin: 0 auto;
+    }
+
+    .modal-body.add-cart-body {
+        padding: 40px 20px;
+    }
+
+    .modal-content.add-cart-content {
+        height: 100%;
+    }
+
+    .add-cart-img-info {
+        margin-top: 20px;
+    }
+
+    .add-cart-checkout-info-box {
+        margin-top: 20px;
+    }
+
+    .check-out-links a {
+        margin-top: 21px;
+    }
+
+    .check-out-links a:first-child {
+        margin-top: 0;
+    }
+
+    #check-out-modal .modal-dialog {
+        max-width: 100% !important;
+    }
+
+    /*::::::::::::::: QUick View Modal ::::::::::::::::::*/
+    .quick-cart-link {
+        display: inline-flex;
+        flex-direction: column;
+    }
+
+    .product-quantity-block {
+        margin-bottom: 70px;
+    }
+
+    .quick-cart-link a {
+        margin: 0;
+        margin-bottom: 30px;
+    }
+
+    .quick-add-cart-link {
+        font-size: 14px;
+    }
+
+    .sort-right div {
+        margin-right: 30px;
+    }
+
+    .product-list-shipping-info .quick-add-cart-link {
+        margin-left: 0;
+        font-size: 14px;
+    }
+
+    .sort-slide-7 .post-meta {
+        flex-direction: row;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ================================About Page==================================
+    :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    .about-image img {
+        height: 280px;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    ================================Blog Grid  Page==================================
+    :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    .blog-item__postmeta a,
+    .blog-single__postmeta a {
+        margin-right: 0;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .blog-item__date::after,
+    .blog-single__date::after {
+        display: none;
+    }
+
+    .blog-item__title {
+        font-size: 26px;
+    }
+
+    .recent-post__img--link {
+        margin-right: 0px;
+    }
+
+    .recent-post__img {
+        width: 100%;
+    }
+
+    .recent-post__single {
+        flex-direction: column;
+    }
+
+    .recent-post__content {
+        margin-top: 15px;
+    }
+
+    .recent-post__title {
+        font-size: 16px;
+    }
+
+}
+
+@media (min-width:1600px) {
+    .home--4 .main-menu .menu-li-fix {
+        margin-right: 18px;
+        display: inline-block;
+    }
+
+}

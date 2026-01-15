@@ -1,0 +1,39 @@
+/*****************************
+28 - Components - Pagination
+*****************************/
+.page-item:first-child .page-link,
+.page-item:last-child .page-link{
+    border-radius: 0px;
+}
+
+.pagination li a{
+    background: #fff;
+    color: #000;
+    transition: all .2s;
+    border-radius: 0px;
+    font-family: "Open Sans", sans-serif;;
+}
+
+.page-link:focus{
+    box-shadow: none;
+}
+
+.pagination li a.active, 
+.pagination li a:hover {
+    background: #e6aa21 !important;
+    color: #fff !important;
+}
+
+.pagination li a.pre-page-nav,
+.pagination li a.next-page-nav{
+    border-radius: 0px;
+}
+
+.pagination li {
+    margin-right: 10px;
+    
+}
+
+.pagination li:last-child {
+    margin-right: 0;
+}

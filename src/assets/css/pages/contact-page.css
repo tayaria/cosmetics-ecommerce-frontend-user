@@ -1,0 +1,37 @@
+/*****************************
+49 - Pages - Contact
+*****************************/
+
+#contact-section {
+    margin-bottom: 80px;
+}
+
+.contact-form .title-tertiary {
+    margin-top: -7px;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.contact-info__icon i {
+    margin-right: 30px;
+    border: 1px solid #ddd;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: #e6aa21;
+    font-size: 18px;
+}
+
+.contact-info:last-child {
+    margin-bottom: 0;
+}
+
+.contact-info__content--label {
+    font-size: 20px;
+    font-weight: 700;
+}

@@ -1,0 +1,312 @@
+/*****************************
+39 - Pages - Details
+*****************************/
+
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+================================Product Details Page==================================
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::
+=====================Product Details Section==================
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+/* Right Side */
+.write-review {
+    color: #919191;
+    font-size: 12px;
+    position: relative;
+    padding-left: 20px;
+    transition: .3s ease;
+    cursor: pointer;
+}
+
+.write-review::before {
+    position: absolute;
+    content: "\f303";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.write-review:hover {
+    color: orange;
+}
+
+/* Left Side */
+.product-delivary-info li {
+    padding: 6px 0;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+}
+
+.product-delivary-info {
+    font-size: 12px;
+    color: #252525;
+    margin-top: 40px;
+}
+
+.product-delivary-info li i {
+    font-size: 20px;
+    padding-right: 15px;
+    color: #555;
+}
+
+
+/* Review Modal */
+.review-des h5 {
+    font-size: 20px;
+    padding: 10px 0;
+    font-weight: 600;
+}
+
+.review-des p {
+    font-size: 12px;
+    line-height: normal;
+    color: #878787;
+}
+
+.review-img-details h6,
+.review-details h6 {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.quality-review {
+    display: flex;
+    align-items: center;
+}
+
+.review-details {
+    font-size: 12px;
+}
+
+.review-form {
+    margin-bottom: 15px;
+}
+
+.review-form input,
+.review-form textarea {
+    border: 1px solid #ddd;
+    width: 100%;
+}
+
+.review-modal-title {
+    font-size: 13px;
+    color: #fff;
+    background: #252525;
+    font-weight: 600;
+    display: block;
+    width: 100%;
+    padding: 5px;
+}
+
+.review-des h6 {
+    padding: 5px 0;
+}
+
+.quality-review h6 {
+    margin-right: 20px;
+}
+
+.review-input label {
+    font-weight: 700;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.review-btn-set button {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::
+=====================Product Tablist Section=============
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+#product-tab-list-section {
+    padding-top: 72px;
+}
+
+.product-details-tab-click {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 21px;
+}
+
+/* Tab Btn */
+.nav.product-details-tab-click li {
+    position: relative;
+}
+
+.nav.product-details-tab-click li:after {
+    position: absolute;
+    content: " / ";
+    top: 0;
+    left: 0;
+    font-weight: 100;
+    font-size: 38px;
+    color: #707070;
+}
+
+.nav.product-details-tab-click li:first-child::after {
+    content: "";
+}
+
+.product-details-tab-click a.active,
+.product-details-tab-click a:hover {
+    color: #252525;
+    position: relative;
+}
+
+.product-details-tab-click a {
+    color: #707070;
+    padding: 0 30px;
+    position: relative;
+    transition: .3s ease;
+}
+
+.product-details-tab-click a::before,
+.product-details-tab-click a.active::after {
+    position: absolute;
+    content: "";
+    bottom: -10px;
+    left: 50%;
+    width: 100px;
+    height: 2px;
+    background: #252525;
+    transform: translateX(-50%);
+}
+
+.product-details-tab-click a::before {
+    visibility: hidden;
+    opacity: 0;
+    width: 0px;
+    transition: .3s ease;
+}
+
+.product-details-tab-click a:hover::before {
+    width: 100px;
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/* Tab Content */
+#product-details-info-content {
+    margin-top: 60px;
+    padding: 30px 40px 40px 40px;
+    font-size: 15px;
+    border: 1px solid #ddd;
+}
+
+.product-table tr:nth-of-type(odd) {
+    background: #ebebeb;
+}
+
+.product-table tr:nth-of-type(even) {
+    background: #f6f6f6;
+}
+
+.product-table.table tr th {
+    margin-left: 30px;
+}
+
+.product-manufacture-ref label {
+    font-weight: 700;
+}
+
+.product-features h5 {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.product-features {
+    margin-top: 15px;
+    overflow-x: auto;
+}
+
+
+.review-grade-area {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #6c6c6c;
+}
+
+.review-grade {
+    font-size: 14px;
+    margin-right: 12px;
+    font-weight: 600;
+}
+
+.review-grade-area .quick-view-catagory-review {
+    margin-bottom: 0;
+}
+
+.review-author-info {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+}
+
+.reviewer-name {
+    color: #333;
+    font-weight: 700;
+}
+
+.review-date {
+    color: #333;
+}
+
+.reviewer-comment-block {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.reviewer-comment-title {
+    font-size: 14px;
+    color: #333;
+}
+
+.reviewer-comment-description {
+    font-size: 12px;
+    color: #333;
+}
+
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::
+=====================Product List Area=============
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+.product-catagory-section-1-row-80 {
+    margin-bottom: 40px;
+}
+
+.product-list-area {
+    padding-bottom: 50px;
+}
+
+.product-list-title {
+    margin-bottom: 22px;
+    font-weight: 700;
+    font-size: 28px;
+    margin-top: -7px;
+}
+
+
+.mean-container .meanmenu-reveal i {
+    font-size: 16px;
+    color: #fff;
+}
+
+.mean-container .mean-bar,
+.mean-container .mean-nav {
+    background-color: #333;
+}

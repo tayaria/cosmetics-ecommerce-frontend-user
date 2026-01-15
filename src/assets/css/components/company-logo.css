@@ -1,0 +1,16 @@
+/*****************************
+23 - Components - Company Logo Slider
+*****************************/
+
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::
+==============Company Logo Slider Section==============
+::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+.single-company-logo a img {
+    transform: scale(1);
+    transition: .9s ease;
+    max-width: 100%;
+}
+
+.single-company-logo a img:hover {
+    transform: scale(1.1);
+}

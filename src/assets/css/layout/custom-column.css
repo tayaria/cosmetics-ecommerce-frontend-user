@@ -1,0 +1,64 @@
+
+/*****************************
+33 - Layout - Custom Column
+*****************************/
+
+.custom-col {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.custom-col--1 {
+    width: 27.83% !important;
+}
+
+.custom-col--2 {
+    width: 31.83% !important;
+}
+
+.custom-col--3 {
+    width: 40.34% !important;
+}
+
+
+@media (min-width:992px) {
+    .container-1200 {
+        max-width: 940px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .header-sticky-area.home--4 .col-lg-2{
+        padding-left: 0;
+    }
+
+}
+
+
+@media (min-width:1200px) {
+    .container-1200 {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+}
+
+@media (max-width:991px) {
+    .container-1200 {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    #testimonial-section.p-b-105{
+        padding-bottom: 95px;
+    }
+
+}
+
+@media (max-width:767px){
+     #testimonial-section.p-b-105{
+        padding-bottom: 80px;
+    }
+}

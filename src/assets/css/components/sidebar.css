@@ -1,0 +1,129 @@
+/*****************************
+25 - Components - Blog
+*****************************/
+.sidebar-box {
+    border: 2px solid #ddd;
+    padding: 35px 30px 40px;
+    margin-bottom: 40px;
+}
+
+.sidebar-box:last-child {
+    margin-bottom: 0;
+}
+
+.sidebar-title {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    display: inline-block;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.sidebar-title::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #e6aa21;
+    bottom: 0;
+    left: 0;
+}
+
+
+.list-type-side-nav li {
+    padding: 5px 0;
+    
+    display: block;
+    border-top: 1px solid #ddd;
+}
+
+.list-type-side-nav li:last-child{
+    padding-bottom: 0;
+    margin-bottom: -10px;
+}
+.list-type-side-nav li a {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all .3s;
+}
+
+.list-type-side-nav li:first-child a {
+    border-top: none;
+}
+
+/* Recent Post */
+.recent-post ul li{
+    margin-bottom: 27px;
+}
+
+.recent-post ul li:last-child{
+    margin-bottom: -3px;
+}
+
+.recent-post__single {
+    display: flex;
+   
+}
+
+.recent-post__img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.recent-post__img--link {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.recent-post__title {
+    font-size: 18px;
+    text-align: left;
+    transition: all .3s;
+}
+
+.recent-post__post-date {
+    font-size: 14px;
+    display: block;
+    font-weight: 400;
+    color: #333;
+}
+
+
+/* Sidebar Tag */
+.side-bar-tag {
+    margin-bottom: -10px;
+}
+
+.side-bar-tag li {
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.side-bar-tag li a {
+    padding: 5px 15px;
+    display: block;
+    border: 1px solid #e6aa21;
+    transition: all .3s;
+}
+
+.side-bar-tag li a:hover {
+    background: #e6aa21;
+    color: #fff;
+}
+
+.side-bar-tag li:last-child {
+    margin-right: 0;
+}
+
+
+
+
+
+

@@ -1,0 +1,73 @@
+/*****************************
+36 - Pages - Home - 3
+*****************************/
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+====================Promo Baner - 3====================
+::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+.single-banner-box-item {
+    overflow: hidden;
+    position: relative;
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.zoom-hover img {
+    width: 100%;
+    transition: all .3s linear;
+}
+
+.zoom-hover:hover img {
+    transform: scale(1.03);
+}
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+====================Our-product-catagory - 3============
+::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+#our-product-catagory-section {
+    padding-top: 63px;
+    margin-bottom: 55px;
+}
+
+.product-filter-area.product-filter__home-3 {
+    text-align: right;
+}
+
+
+.product-filter-area.product-filter__home-3 {
+    display: flex;
+    font-size: 20px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    font-size: 20px;
+}
+
+.product-filter-area.product-filter__home-3 li:last-child {
+    margin-right: 100px;
+}
+
+.sort-slide-7 .slick-list.draggable {
+    margin: 0 -15px;
+}
+
+.sort-slide-7 .single-recent-blogs.slick-slide {
+    margin: 0 15px;
+}
+
+#feature-product-catagory-section{
+    margin-bottom: 62px;
+}
+
+#recent-blogs-full {
+    padding-top: 63px;
+    margin-bottom: 53px;
+}
+
+#company-logo-section.p-b-0{
+    padding-bottom: 0 !important;
+}
+
+.mini-slide.slick-slider.arrow-fix-25 .slick-arrow {
+    top: -56px;
+}

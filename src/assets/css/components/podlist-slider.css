@@ -1,0 +1,61 @@
+/*****************************
+19 - Components - Podlist Slider
+*****************************/
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+====================Podlist Slider Section=======================
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+.podlist-slider .slick-list{
+    margin: 0 -15px;
+}
+.podlist-slider .slick-slide{
+    margin: 0 15px;
+}
+
+
+.single-podlist-slider-item {
+    text-align: center;
+    border: 2px solid #eee !important;
+    padding: 30px;
+    transition: all 300ms linear;
+}
+
+.podlist-slider-thumb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.podlist-slider-thumb img {
+    max-width: 90px;
+    height: auto;
+    transform: scale(1);
+    transition: 1s linear;
+}
+
+.podlist-slider-catagory {
+    font-size: 14px;
+    font-weight: 700;
+    color: #252525;
+    line-height: 30px;
+    text-transform: uppercase;
+    display: block;
+    transition: all 300ms linear;
+}
+
+.single-podlist-slider-item:hover {
+    border: 2px solid #e6aa21;
+}
+
+.single-podlist-slider-item:hover .podlist-slider-catagory {
+    color: #e6aa21;
+}
+
+.single-podlist-slider-item:hover .podlist-slider-thumb img {
+    transform: scale(1.05);
+}
+
+.podlist-slider .slick-dots {
+    bottom: -69px;
+}

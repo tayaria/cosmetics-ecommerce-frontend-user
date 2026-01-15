@@ -1,0 +1,58 @@
+/*****************************
+46 - Pages - Wishlist
+*****************************/
+
+.wishlist-section{
+    margin-bottom: 80px;
+}
+
+.wishlist-table table {
+    background: #fff none repeat scroll 0 0;
+    border-color: #c1c1c1;
+    border-radius: 0;
+    border-style: solid;
+    border-width: 1px 0 0 1px;
+    width: 100%;
+}
+
+.wishlist-table table .product-remove {
+    padding: 0 15px;
+    width: 20px;
+}
+
+.wishlist-table table th, .wishlist-table table td {
+    border-bottom: 1px solid #c1c1c1;
+    border-right: 1px solid #c1c1c1;
+    font-size: 14px;
+    padding: 15px 10px;
+    text-align: center;
+    color: #767676;
+}
+
+.wishlist-table table .product-thumbnail {
+    width: 200px;
+}
+
+.wishlist-table table .product-thumbnail img {
+    max-height: 200px;
+    width: auto;
+}
+
+.wishlist-table table .product-name {
+    min-width: 240px;
+    font-weight: 600;
+}
+
+.wishlist-table table .product-price {
+    min-width: 125px;
+    font-weight: 700;
+}
+
+.wishlist-table table .product-quantity-block {
+    min-width: 100px;
+}
+
+.wishlist-table table .product-add-to-cart {
+    min-width: 200px;
+}
+

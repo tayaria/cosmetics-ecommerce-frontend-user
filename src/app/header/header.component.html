@@ -1,0 +1,413 @@
+<header id="header-section">
+        <!--  Start Header Top  -->
+        <div class="header-top-area">
+            <div class="container-fluid p-lr-80">
+                <div class="row no-gutters">
+                    <div class="col-lg-12">
+                        <!--  Start Header Top Info -->
+                        <div class="header-top-info">
+                            <div class="header-top-info-left">
+                                <div class="header-phone">
+                                    <i class="ion-ios-telephone"></i>
+                                    Call Us : <a href="tel://+0123456789">+216 71 208 354</a>
+                                </div>
+                                <div class="header-email">
+                                    <i class="ion-android-drafts"></i>
+                                    Email : <a href="mailto://demo@example.com">liora@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="header-actions d-flex align-items-center gap-3">
+    <!-- Profil -->
+    <div class="header-profile d-flex align-items-center">
+        <i class="ion-person me-2"></i>
+        
+    </div>
+
+    <!-- Bouton Déconnexion -->
+    <button class="btn btn-outline-danger" (click)="logout()" *ngIf="isLogedIn">
+
+        <i class="ion-log-out me-1"></i> Se déconnecter
+    </button>
+    <a class="btn btn-outline-danger" href="/login" *ngIf="!isLogedIn">
+
+        <i class="ion-log-out me-1"></i> Se connecter
+    </a>
+</div>
+
+                            
+                        </div> <!--  End Header Top Info  -->
+                    </div>
+                </div>
+            </div>
+        </div> <!--  Start Header Top  -->
+
+        <!--  Start Header Sticky  -->
+        <div class="header-sticky-area d-none d-lg-block">
+            <div class="container-fluid p-lr-80">
+                <div class="row align-items-center">
+
+                    <!--  Start Header Logo  -->
+                    <div class="col-lg-3">
+                        <div class="header-logo">
+                            <a href="index.html">
+                                <img width="140" height="100" src="assets/img/logo1.jpg" alt="">
+                            </a>
+                        </div>
+                    </div> <!--  End Header Logo  -->
+
+                    <div class="col-lg-9">
+                        <div class="row align-items-center mobile-row-reverse">
+                            <!--  Start Header Search  -->
+                            <div class="col-lg-9 col-md-8">
+                                <form action="#" method="post">
+                                    <div class="header-search-form">
+                                        <input type="search" name="search" class="product-item-search"
+                                            placeholder="Recherchez notre produit">
+                                        <button type="submit" class="product-item-search-btn"><i
+                                                class="ion-ios-search-strong"></i></button>
+                                    </div>
+                                </form>
+                            </div> <!--  End Header Search  -->
+
+                            <!--  Start Header Cart  -->
+                            <div class="col-lg-3 col-md-4">
+                                <div class="header-cart">
+                                    
+
+                                    <div class="header-cart-deatils">
+                                        <ul class="header-item-add-cart">
+                                            <li>
+                                                <div class="header-add-cart-img">
+                                                    <a href="details.html"><img
+                                                            width="350" height="441"  src="assets/img/product-catagory-img-1.webp" alt=""></a>
+                                                    <span class="header-product-quantity">1x</span>
+                                                </div>
+                                                <div class="header-add-cart-img-info">
+                                                    <a href="details.html"><span
+                                                            class="header-add-cart-product-name">Chair</span></a>
+                                                    <span class="header-add-cart-product-price">$16.51</span>
+                                                    <span class="header-add-cart-product-size"><strong>Size:</strong>
+                                                        S</span>
+                                                    <span class="header-add-cart-product-color"><strong>Color:</strong>
+                                                        Black</span>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="header-add-cart-img">
+                                                    <a href="details.html"><img
+                                                            width="350" height="441"  src="assets/img/product-catagory-img-2.webp" alt=""></a>
+                                                    <span class="header-product-quantity">2x</span>
+                                                </div>
+                                                <div class="header-add-cart-img-info">
+                                                    <a href="details.html"><span
+                                                            class="header-add-cart-product-name">Sofa</span></a>
+                                                    <span class="header-add-cart-product-price">$50.00</span>
+                                                    <span class="header-add-cart-product-size"><strong>Size:</strong>
+                                                        S</span>
+                                                    <span class="header-add-cart-product-color"><strong>Color:</strong>
+                                                        Black</span>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <ul class="header-cart-info-area">
+                                            <li class="header-cart-infos">
+                                                <div class="header-cart-left-info"><span>Subtotal</span></div>
+                                                <div class="header-cart-right-info"><span>$66.51</span></div>
+                                            </li>
+                                            <li class="header-cart-infos">
+                                                <div class="header-cart-left-info"><span>Shipping</span></div>
+                                                <div class="header-cart-right-info"><span>Free</span></div>
+                                            </li>
+                                            <li class="header-cart-infos">
+                                                <div class="header-cart-left-info"><span>Taxes</span></div>
+                                                <div class="header-cart-right-info"><span>$5.50</span></div>
+                                            </li>
+                                            <li class="header-cart-infos">
+                                                <div class="header-cart-left-info"><span>Total</span></div>
+                                                <div class="header-cart-right-info"><span>$72.01</span></div>
+                                            </li>
+                                        </ul>
+
+                                        <div class="border-separator"></div>
+                                        <a href="checkout.html" class="cart-check-out-btn">Checkout</a>
+                                    </div>
+                                </div>
+                            </div> <!--  Start Header Cart  -->
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div> <!--  End Header Sticky  -->
+
+        <!--  Start Large Device Header Menu area  -->
+        <div class="header-menu-area d-none d-lg-block m-t-35">
+            <div class="container-fluid p-lr-80">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <nav class="header-menu position-relative">
+                            <ul class="menu-content">
+                                <li><a href="">Home </a></li>
+                                <li><a href="/produit">Nos Produits </a></li> 
+                                <li *ngIf="isLogedIn"><a href="/mesRes">Mes Reservation </a></li>             
+                                <li><a href="/about">About</a></li>
+                                <li><a href="/contact">Contact</a></li>
+                                
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div><!--  End Large Device Header Menu area  -->
+
+        <!--  Start Mobile Middle Area -->
+        <div class="header-mobile-area d-block d-lg-none m-tb-30">
+            <div class="container-fluid p-lr-80">
+                <div class="row align-items-center">
+
+                    <!--  Start Header Logo  -->
+                    <div class="col-lg-3">
+                        <div class="header-logo">
+                            <a href="index.html">
+                                <img width="128" height="33" src="assets/img/header-logo.webp" alt="">
+                            </a>
+                        </div>
+                    </div> <!--  End Header Logo  -->
+
+                    <div class="col-lg-9">
+                        <div class="row align-items-center mobile-row-reverse">
+                            <!--  Start Header Search  -->
+                            <div class="col-lg-9 col-md-8">
+                                <form action="#" method="post">
+                                    <div class="header-search-form">
+                                        <input type="search" name="search" class="product-item-search"
+                                            placeholder="Search our catalog">
+                                        <button type="submit" class="product-item-search-btn"><i
+                                                class="ion-ios-search-strong"></i></button>
+                                    </div>
+                                </form>
+                            </div> <!--  End Header Search  -->
+
+                            <!--  Start Header Cart  -->
+                            <div class="col-lg-3 col-md-4">
+                                <div class="header-cart">
+                                    <button type="button" class="add_cart_open">
+                                        <i class="ion-bag"></i>
+                                        <span class="item_total"> 3 Items : $72.01</span>
+                                    </button>
+
+                                    <div class="header-cart-deatils">
+                                        <ul class="header-item-add-cart">
+                                            <li>
+                                                <div class="header-add-cart-img">
+                                                    <a href="details.html"><img
+                                                            width="350" height="441"  src="assets/img/product-catagory-img-1.webp" alt=""></a>
+                                                    <span class="header-product-quantity">1x</span>
+                                                </div>
+                                                <div class="header-add-cart-img-info">
+                                                    <a href="details.html"><span
+                                                            class="header-add-cart-product-name">Chair</span></a>
+                                                    <span class="header-add-cart-product-price">$16.51</span>
+                                                    <span class="header-add-cart-product-size"><strong>Size:</strong>
+                                                        S</span>
+                                                    <span class="header-add-cart-product-color"><strong>Color:</strong>
+                                                        Black</span>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="header-add-cart-img">
+                                                    <a href="details.html"><img
+                                                            width="350" height="441"  src="assets/img/product-catagory-img-2.webp" alt=""></a>
+                                                    <span class="header-product-quantity">2x</span>
+                                                </div>
+                                                <div class="header-add-cart-img-info">
+                                                    <a href="details.html"><span
+                                                            class="header-add-cart-product-name">Sofa</span></a>
+                                                    <span class="header-add-cart-product-price">$50.00</span>
+                                                    <span class="header-add-cart-product-size"><strong>Size:</strong>
+                                                        S</span>
+                                                    <span class="header-add-cart-product-color"><strong>Color:</strong>
+                                                        Black</span>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <ul class="header-cart-info-area">
+                                            <li class="header-cart-infos">
+                                                <div class="header-cart-left-info"><span>Subtotal</span></div>
+                                                <div class="header-cart-right-info"><span>$66.51</span></div>
+                                            </li>
+                                            <li class="header-cart-infos">
+                                                <div class="header-cart-left-info"><span>Shipping</span></div>
+                                                <div class="header-cart-right-info"><span>Free</span></div>
+                                            </li>
+                                            <li class="header-cart-infos">
+                                                <div class="header-cart-left-info"><span>Taxes</span></div>
+                                                <div class="header-cart-right-info"><span>$5.50</span></div>
+                                            </li>
+                                            <li class="header-cart-infos">
+                                                <div class="header-cart-left-info"><span>Total</span></div>
+                                                <div class="header-cart-right-info"><span>$72.01</span></div>
+                                            </li>
+                                        </ul>
+
+                                        <div class="border-separator"></div>
+                                        <a href="checkout.html" class="cart-check-out-btn">Checkout</a>
+                                    </div>
+                                </div>
+                            </div> <!--  Start Header Cart  -->
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div> <!--  End Mobile Middle Area  -->
+
+        <!-- Start Mobile device Menu area -->
+        <div class="header-mobile-menu d-block d-lg-none">
+            <div class="container-fluid p-lr-80">
+                <div class="row">
+                    <div class="col-12">
+                        <div>
+                            <nav>
+                                <ul class="mobile-menu">
+                                    <li>
+                                        <a href="index.html">Home</a>
+                                        <ul>
+                                            <li><a href="index.html">Home 01</a></li>
+                                            <li><a href="index-2.html">Home 02</a></li>
+                                            <li><a href="index-3.html">Home 03</a></li>
+                                            <li><a href="index-4.html">Home 04</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">Pages</a>
+                                        <ul>
+                                            <li><a href="about.html">About</a></li>
+                                            <li><a href="cart.html">Cart</a></li>
+                                            <li><a href="checkout.html">CheckOut</a></li>
+                                            <li><a href="compare.html">Compare</a></li>
+                                            <li><a href="wishlist.html">Wishlist</a></li>
+                                            <li><a href="my-account.html">My Account</a></li>
+                                            <li><a href="login.html">Login</a></li>
+                                            <li><a href="register.html">Register</a></li>
+                                            <li><a href="404.html">404 Page</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Shop</a>
+                                        <ul>
+                                            <li><a href="shop.html">Shop Grid</a>
+                                                <ul>
+                                                    <li><a href="shop.html">Default Shop</a></li>
+                                                    <li><a href="shop-3-column.html">Grid Column 3</a></li>
+                                                    <li><a href="shop-4-column.html">Grid Column 4</a></li>
+                                                    <li><a href="shop-left-sidebar.html">Grid Left Sidebar</a></li>
+                                                    <li><a href="shop-right-sidebar.html">Grid Right Sidebar</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="shop-list.html">Shop List</a>
+                                                <ul>
+                                                    <li><a href="shop-list.html">Shop List</a></li>
+                                                    <li><a href="shop-list-left-sidebar.html">List Left Sidebar</a></li>
+                                                    <li><a href="shop-list-right-sidebar.html">List Right Sidebar</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="single-product.html">Shop Single</a>
+                                                <ul>
+                                                    <li><a href="single-product.html">Single</a></li>
+                                                    <li><a href="single-product-variable.html">Variable</a></li>
+                                                    <li><a href="single-product-tabstyle2.html">Tab 2</a></li>
+                                                    <li><a href="single-product-tabstyle3.html">Tab 3</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="single-product.html">Shop Single</a>
+                                                <ul>
+                                                    <li><a href="single-product-slider.html">Slider</a></li>
+                                                    <li><a href="single-product-gallery-left.html">Gallery Left
+                                                            Sidebar</a></li>
+                                                    <li><a href="single-product-gallery-right.html">Gallery Right
+                                                            Sidebar</a></li>
+                                                    <li><a href="single-product-sticky-left.html">Sticky Left
+                                                            Sidebar</a></li>
+                                                    <li><a href="single-product-sticky-right.html">Sticky Right
+                                                            Sidebar</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="custom-banner">
+                                                <a href="shop-4-column.html"><img width="1770" height="490" src="assets/img/promo-img-wide-1.webp"
+                                                        alt="" class="img-responsive"></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">Custom Menu</a>
+                                        <ul>
+                                            <li>
+                                                <strong>Women Is Clothes & Fashion</strong>
+                                                <p>Shop Women Is Clothing And Accessories And Get Inspired By The Latest
+                                                    Fashion Trends.</p>
+                                            </li>
+                                            <li>
+                                                <strong>Simple Style</strong>
+                                                <p>A New Flattering Style With All The Comfort Of Our Linen.</p>
+                                            </li>
+                                            <li>
+                                                <strong>Easy Layers</strong>
+                                                <p>Endless Styling Possibilities In A Collection Full Of Versatile
+                                                    Pieces.</p>
+                                            </li>
+                                            <li class="custom-banner">
+                                                <a href="shop-4-column.html"><img width="1770" height="490" src="assets/img/promo-img-wide-1.webp"
+                                                        alt="" class="img-responsive"></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">Blog</a>
+                                        <ul>
+                                            <li>
+                                                <a href="#">Blog Grid</a>
+                                                <ul>
+                                                    <li><a href="blog-grid-left-sidebar.html">Blog Grid Left Sidebar</a>
+                                                    </li>
+                                                    <li><a href="blog-grid-right-sidebar.html">Blog Grid Right
+                                                            Sidebar</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="#">Blog List</a>
+                                                <ul>
+                                                    <li><a href="blog-list-left-sidebar.html">Blog List Left Sidebar</a>
+                                                    </li>
+                                                    <li><a href="blog-list-right-sidebar.html">Blog List Right
+                                                            Sidebar</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="#">Blog Single</a>
+                                                <ul>
+                                                    <li><a href="blog-single-left-sidebar.html">Blog Single Left
+                                                            Sidebar</a></li>
+                                                    <li><a href="blog-single-right-sidebar.html">Blog Single Right
+                                                            Sidebar</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+            <style>
+.header-profile i {
+    margin-right: 8px; /* espace de 8px entre l’icône et le nom */
+}
+</style>
+        
+    </header>

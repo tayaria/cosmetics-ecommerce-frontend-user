@@ -1,0 +1,82 @@
+/*****************************
+12 - Base - Typhography
+*****************************/
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+====================Typhography=======================
+::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&amp;family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&amp;display=swap');
+
+/*Font Type: 
+1. font-family: 'Mukta', sans-serif;
+2. font-family: 'Open Sans', sans-serif;
+*/
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Mukta', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+span {
+    margin: 0;
+}
+
+a {
+    text-decoration: none !important;
+    outline: none;
+    color: #333;
+
+}
+
+a:hover{
+    color: #e6aa11;
+}
+
+input:focus,
+button {
+    outline: none !important;
+}
+
+.text-italic {
+    font-style: italic;
+}
+
+.title-primary{
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.title-secondary{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.title-tertiary{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.title-forth{
+    font-size: 26px;
+    font-weight: 700;
+}
+
+
+
+.delete,
+.delete:hover{
+    color: #c03838;
+}

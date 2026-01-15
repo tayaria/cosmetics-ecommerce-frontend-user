@@ -1,0 +1,51 @@
+/*****************************
+13 - Components - Button
+*****************************/
+
+.box-btn {
+    color: #ffffff;
+    padding: 7px 20px;
+    background: #2e2e2e;
+    transition: .3s linear;
+    display: inline-block;
+}
+
+.box-btn-lg {
+    padding: 11px 25px;
+}
+
+a.box-btn {
+    color: #ffffff !important;
+    text-transform: uppercase;
+}
+
+.box-btn:hover {
+    background: #e6aa21;
+}
+
+button.box-btn {
+    border: none;
+    text-transform: uppercase;
+}
+
+
+
+#onclick-toogle-btn {
+    position: relative;
+    border: none;
+    background: transparent;
+    text-align: right;
+}
+
+  #toogle-search {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    width: 530px;
+    z-index: 9;
+    display: none;
+  }
+
+  #toogle-search{
+      background: #fff;
+  }

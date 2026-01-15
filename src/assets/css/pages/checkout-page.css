@@ -1,0 +1,81 @@
+/*****************************
+47 - Pages - Checkout
+*****************************/
+
+.checkout-area{
+    margin-top: -7px;
+    margin-bottom: 80px;
+}
+
+.checkout-checkbox ul li {
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: 30px;
+}
+
+.checkout-checkbox ul li:last-child{
+    margin-right: 0;
+}
+
+.checkout-total-wrapper .checkout-total,
+.checkout-payment-wrapper .checkout-payment {
+    border: 2px solid #e5e5e5;
+    padding: 35px 30px 27px 30px;;
+}
+
+.checkout-total-wrapper .checkout-total ul {
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.payment-option-form {
+    margin-top: -30px;
+}
+
+.checkout-total-wrapper .checkout-total > .title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkout-total-wrapper .checkout-total .checkout-total-sub {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -webkit-box-pack: space-between;
+    -ms-flex-pack: space-between;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    font-weight: 700;
+}
+
+.checkout-total-wrapper .checkout-total:last-child > .checkout-total-sub{
+    border-bottom: none;
+}
+
+.checkout-total-wrapper .checkout-total ul li {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -webkit-box-pack: space-between;
+    -ms-flex-pack: space-between;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+
+.checkout-total-wrapper .title-tertiary, 
+.checkout-payment-wrapper .title-tertiary {
+    margin-bottom: 32px;
+}
+
+.checkout-payment-wrapper {
+    margin-top: 43px;
+}
+
+

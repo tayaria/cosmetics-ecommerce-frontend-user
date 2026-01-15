@@ -1,0 +1,53 @@
+/*****************************
+24 - Components - CSM
+*****************************/
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+====================CSM-Company Section================
+::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+#csm-customer {
+    border-top: 1px solid #ebebeb;;
+}
+
+#csm-customer .col-md-4 {
+    border-right: 1px solid #ebebeb;;
+}
+
+#csm-customer .col-md-4:last-child {
+    border-right: none;
+}
+
+.single-csm-item {
+    padding: 67px 30px 61px 30px;
+}
+
+.single-csm-item i {
+    font-size: 48px;
+    color: #e6aa21;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+.single-csm-item h5 {
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.single-csm-item span {
+    color: #999;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.single-csm-item p {
+    color: #555555;
+    font-size: 15px;
+}
+
+@media (max-width: 768px){
+    #csm-customer .container-fluid.p-lr-80{
+        padding: 0 15px !important;
+    }
+}

@@ -1,0 +1,347 @@
+/*****************************
+35 - Pages - Home - 2
+*****************************/
+
+.header-menu--vertical{
+    margin-bottom: 60px;
+}
+.header-menu.header-menu--vertical .menu-content li:nth-last-child(3) .sub-menu li .sub-menu {
+    left: 100%;
+}
+.header-menu.header-menu--vertical .menu-content li {
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    padding: 0 20px;
+}
+
+.header-menu.header-menu--vertical .menu-content li:last-child{
+    border-bottom: 1px solid transparent;
+}
+
+.header-menu.header-menu--vertical .menu-content {
+    background: #a5d179;
+}
+
+.header-menu.header-menu--vertical li a {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-menu.header-menu--vertical li:hover a{
+    color: #fff;
+}
+
+.header-menu.header-menu--vertical .menu-content li.active > a{
+    color: #fff;
+}
+
+.header-menu.header-menu--vertical .menu-content li > .sub-menu{
+    top: 0;
+    left: 100%; 
+}
+
+.header-menu.header-menu--vertical .menu-content li > .sub-menu li{
+    border: none;
+}
+
+.header-menu.header-menu--vertical .menu-content li.position-static{
+    position: relative !important;
+}
+
+.header-menu.header-menu--vertical .menu-content li .mega-sub-menu{
+    top: 0;
+    left: 100%;
+}
+
+.header-menu.header-menu--vertical .menu-content li .mega-sub-menu li{
+   border: none;
+}
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+====================Add Baner - 2====================
+::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+.ad-banner{
+    margin-bottom: 53px;
+}
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+====================Best Seller - 2====================
+::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+#bestseller-sort-price {
+    margin-bottom: 23px;
+}
+
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+====================News Ketter form 2 - 2====================
+::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+.news-letter-form-2{
+    margin-bottom: 53px;
+}
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+====================News Ketter form 2 - 2====================
+::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+#recent-blogs{
+    margin-bottom: 90px;
+}
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+====================Hero Slider - 2====================
+::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+#hero-slider .hero-slider-slide.hero-slider-2 .single-hero-slider-item{
+    height: 85vh;
+}
+
+#hero-slider .hero-slider-slide.hero-slider-2:hover .owl-nav button:hover{
+    background: #a5d179;
+}
+
+#hero-slider .hero-slider-slide.hero-slider-2 .owl-dots .owl-dot.active{
+    background: #a5d179;
+}
+
+.hero-slider-2 .slider-heading-sub {
+  font-size: 30px;
+  display: block;
+  font-weight: 500;
+  color: #fff;
+  opacity: 0;
+  visibility: hidden;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+}
+
+#hero-slider .hero-slider-slide.hero-slider-2 .owl-item.active .slider-heading-sub{
+    opacity: 1;
+    visibility: visible;
+    animation: fadeAnimate  .7s ease-in-out backwards;
+}
+
+.hero-slider-2 .slider-heading-primary {
+  color: #fff;
+  font-weight: 600;
+  opacity: 0;
+  visibility: hidden;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  line-height: 1;
+  margin-bottom: 40px;
+}
+
+#hero-slider  .hero-slider-slide.hero-slider-2 .owl-item.active  .slider-heading-primary {
+    opacity: 1;
+    visibility: visible;
+    animation: fadeAnimate  .7s ease-in-out .5s backwards;
+}
+
+#hero-slider .hero-slider-slide.hero-slider-2 .owl-item.active .slider-content .box-btn {
+
+    animation: fadeAnimate .7s ease-in-out 1s backwards;
+}
+
+#hero-slider.hero-slider-2 .owl-dots button.active {
+    background: #a5d179;
+}
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+==================Feature Product Section - 2==============
+::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+#features-product-2 {
+    margin-top: 63px;
+    margin-bottom: 62px;
+}
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+==================Testimonial Section - 2==============
+::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+.testimonial-style-2 .testi-quote::before{
+    color: #a5d179;
+}
+
+.testimonial-style-2 .slick-dots li.slick-active button {
+    background: #a5d179;
+}
+
+.product-catagory-content .quick-add-cart-link {
+    margin: 30px 0 0 0;
+}
+
+
+.sale-off-promo-banner {
+    position: relative;
+    display: block;
+   
+}
+
+.sale-off-promo-banner img{
+    width: 100%;
+}
+
+.single-product-segment{
+    margin-bottom: 30px;
+}
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+==================Others Product - 2==============
+::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+#other-products{
+    margin-top: 100px;
+}
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+================== new-product-2 Section - 2==============
+::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+#new-product-2 {
+    margin-bottom: 45px;
+}
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+================== CSM-Company - 2==============
+::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+#csm-customer-2 {
+    margin-bottom: 30px;
+}
+
+/*::::::::::::::: News Letter CSS :::::::::::::::::*/
+.news-letter-form-2 {
+    background: #252525;
+    color: #fff;
+    padding: 50px 29px 50px 29px;
+}
+
+.news-letter-form-2 h5 {
+    font-size: 18px;
+    text-align: center;
+}
+
+.news-letter-form-2 p {
+    font-size: 15px;
+    color: #959595;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.news-letter-form-2 input {
+    width: 100%;
+    border: none;
+    color: #959595;
+    background: #3e3e3e;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.news-letter-form-2 button{
+    width: 100%;
+    background: #252525;
+    border: 1px solid #959595;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+    transition: .3s ease;
+}
+
+.news-letter-form-2 button:hover{
+    background: #a5d179;
+}
+
+/*::::::::::::::: Recent Blogs CSS :::::::::::::::::*/
+.blog-thumb {
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+.blog-thumb::before {
+    position: absolute;
+    content: "";
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    background: rgba(0, 0, 0, .5);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .3s ease-in-out;
+    opacity: 0;
+}
+
+.blog-thumb:hover::before {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+
+.blog-thumb::after{
+    position: absolute;
+    content: "\f055";
+    top: 50%;
+    left: calc(100% + 30px);
+    transform: translate(-50%, -50%);
+    transition: .3s ease-in-out;
+    opacity: 0;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 600;
+    color: #fff;
+}
+
+.blog-thumb:hover::after{
+    left: 50%;
+    opacity: 1;
+}
+
+.blog-title {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #252525;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    transition: all .3s linear;
+}
+
+.blog-title:hover{
+    color: #a5d179;
+}
+
+.blog-content p {
+    font-size: 15px;
+    color: #767676;
+}
+
+.post-meta {
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-meta a {
+    padding-left: 25px;
+    position: relative;
+    color: #252525;
+    font-size: 14px;
+}
+
+.meta-date::before,
+.meta-author::before {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 600;
+   
+}
+
+.meta-date::before{
+    content: "\f073";
+}
+
+.meta-author::before{
+    content: "\f007";
+}
+
+#csm-customer-2 .single-csm-item{
+    padding: 25px 30px 61px 30px;
+}

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Payment Button Interface</title>
+     
+    </head>
+    <body>
+      <div class="container">
+        <button class="payment-button" (click)="makePayment()" href="">Payer maintenant</button>
+        <button *ngIf="invoiceGenerated" class="payment-button" (click)="connexion()"> facture</button>
+      </div>
+    </body>
+    </html>

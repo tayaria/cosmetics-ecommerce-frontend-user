@@ -1,0 +1,111 @@
+/*****************************
+22 - Components - Testimonial
+*****************************/
+
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::
+====================Testimonial Section================
+::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+.about-us h3,
+.testimonial-us h3 {
+   font-weight: 700;
+}
+
+.about-us h3 {
+    margin-bottom: 37px;
+}
+
+.testimonial-us h3 {
+    margin-bottom: 32px;
+}
+
+.about-us h4 {
+    margin-bottom: 17px;
+    font-weight: 700;
+}
+
+.about-us h5 {
+    margin-bottom: 27px;
+}
+
+.about-us p {
+    margin-bottom: 30px;
+}
+
+.about-us .box-btn {
+    font-weight: 700;
+}
+
+.testimonial-items {
+    position: relative;
+}
+
+.testi-quote {
+    font-size: 16px;
+    font-style: italic;
+    padding: 20px 40px 20px;
+    margin: 0 0 40px;
+    position: relative;
+}
+
+.testi-quote::before {
+    position: absolute;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    content: "\f10d";
+    top: 0;
+    left: 0;
+    color: #e6aa21;
+}
+
+.testi-info {
+    display: flex;
+    align-items: center;
+}
+
+.testi-person-img {
+    overflow: hidden;
+    margin-right: 30px;
+    width: 70px;
+}
+
+.testi-person-img img {
+    width: 100%;
+    height: auto;
+}
+
+.owl-carousel .testi-person-img img {
+    width: 70px;
+    border-radius: 50%;
+}
+
+.testi-person-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.testi-person {
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #e6aa11;
+}
+
+.testi-email {
+    color: #b4b5b5;
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+.testimonial-items .slick-dots {
+    justify-content: flex-end;
+}
+
+.testimonial-items .slick-dots {
+    bottom: -48px;
+    right: 10px;
+}
+
+.testimonial-items--home-2.testimonial-items .slick-dots {
+    right: 30px;
+}

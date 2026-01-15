@@ -1,0 +1,350 @@
+/*****************************
+32 - Layout - Modal
+*****************************/
+
+/* :::::::::::::::::::: Add Cart Modal:::::::::::::::::: */
+.modal {
+    z-index: 9999999999999;
+}
+
+.modal-content.add-cart-content {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: .3rem;
+    outline: 0;
+}
+
+#check-out-modal {
+    margin: 20px auto;
+    padding-right: 0px !important;
+}
+
+.add-card-header {
+    background: #4a4a4a;
+    color: #fff;
+}
+
+.add-card-header button.close span {
+    color: #fff;
+    opacity: 1;
+    text-shadow: none;
+}
+
+
+/* Right Side */
+
+.add-cart-modal-img {
+    overflow: hidden;
+}
+
+
+.add-cart-img-info h6 {
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.ad-cart-price-img {
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.add-cart-border-right {
+    border-right: 1px solid #ddd;
+}
+
+
+/* Left Side */
+.add-cart-img-info ul {
+    font-size: 14px;
+}
+
+.add-cart-img-info ul li span {
+    font-weight: 600;
+}
+
+.add-cart-checkout-info-box li span {
+    font-weight: 600;
+}
+
+.add-cart-checkout-info-box {
+    font-size: 14px;
+}
+
+.check-out-links {
+    margin-top: 30px;
+}
+
+.check-out-links a {
+    margin-right: 10px;
+}
+
+.check-out-links a:last-child {
+    margin-right: 0;
+}
+
+/* :::::::::::::::::::: Quick View Modal:::::::::::::::::: */
+/* Right Side */
+#quick-view-modal {
+    margin: 20px auto;
+    padding-right: 0px !important;
+}
+
+.quick-view-single-main-img {
+    overflow: hidden;
+    height: auto;
+}
+
+.quick-view-single-main-img img {
+    width: 100%;
+}
+
+.quick-view-main-img.quick-view-single-main-img {
+    position: relative;
+}
+
+.thumbnails-center-block {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.quick-view-thumbnail {
+
+    margin-top: 20px;
+}
+
+.quick-view-thumbnail {
+    margin-top: 30px
+}
+
+.quick-view-thumbnail.owl-carousel .owl-nav button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 12px;
+    background: #252525;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.quick-view-thumbnail.owl-carousel .owl-nav button.owl-prev {
+    left: calc(0% - 10px);
+}
+
+.quick-view-thumbnail.owl-carousel .owl-nav button.owl-next {
+    right: calc(0% - 10px);
+}
+
+.quick-view-single-thumb-img {
+    display: block;
+}
+
+.owl-item .quick-view-single-thumb-img.active {
+    position: relative;
+
+}
+
+.owl-item .quick-view-single-thumb-img.active::after {
+    position: absolute;
+    content: "";
+    background: rgba(229, 170, 33, 0.5);
+    border: 1px solid #e5aa21;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: .3s ease;
+}
+
+/* Left Side */
+.quick-view-product-name {
+    font-size: 24px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.quick-view-catagory-review {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.quick-view-product-price {
+    font-size: 34px;
+    font-weight: 600;
+    margin-bottom: 28px;
+}
+
+.quick-view-product-desc {
+    font-size: 15px;
+    color: #707070;
+    margin-bottom: 30px;
+}
+
+.quick-view-product-color ul {
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+
+.color-select-box {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-right: 30px;
+}
+
+.color-select-box input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    cursor: pointer;
+}
+
+
+
+.color-select-box input[value='pink'] ~ .checkmark {
+    background: pink;
+}
+
+.color-select-box input[value='orange'] ~ .checkmark {
+    background: orange;
+}
+
+.color-select-box label input:checked ~ span.checkmark {
+    border: 1px solid #333;
+}
+
+
+
+.product-info-label label {
+    display: block;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.qv-product-size {
+    padding: 5px 10px 5px 5px;
+    outline: none;
+    border-color: #ddd;
+}
+
+.product-info-label {
+    margin-bottom: 20px;
+}
+
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.quantity input {
+    width: 70px;
+    height: 47px;
+    line-height: 1.65;
+    float: left;
+    display: block;
+    padding: 0;
+    margin: 0;
+    padding-left: 20px;
+    border: 1px solid #eee;
+}
+
+.quantity input:focus {
+    outline: 0;
+}
+
+.quantity-nav {
+    float: left;
+    position: relative;
+    height: 42px;
+}
+
+.quantity-button {
+    position: relative;
+    cursor: pointer;
+    border-left: 1px solid #eee;
+    width: 20px;
+    text-align: center;
+    color: #333;
+    font-size: 13px;
+    line-height: 1.7;
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.quantity-button.quantity-up {
+    position: absolute;
+    height: 50%;
+    top: 0;
+    border-bottom: 1px solid #eee;
+}
+
+.quantity-button.quantity-down {
+    position: absolute;
+    bottom: -1px;
+    height: 50%;
+}
+
+.quick-add-cart-link {
+    position: relative;
+    margin: 0 20px;
+}
+
+.quick-add-cart-link i{
+    font-size: 22px;
+    padding-right: 10px;
+}
+
+.product-stock {
+    padding-left: 20px;
+    position: relative;
+    font-weight: 700;
+}
+
+.product-stock::before {
+    position: absolute;
+    content: "\f00c";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+

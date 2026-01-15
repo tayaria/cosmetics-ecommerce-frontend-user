@@ -1,0 +1,41 @@
+/*****************************
+11 - Base - Color
+*****************************/
+.gray-light-bg {background: #f8f8f8;}
+.gray-bg {background: #f8f5ff;}
+
+.lightyellow-color{color: #e6aa21 !important;}
+.lightyellow-color-hover{color: transparent }
+.lightyellow-color-hover:hover{color: #e6aa21 !important;}
+.lightyellow-bg{background: #e6aa21 !important;}
+.lightyellow-bg-trans{background: rgba(230, 171, 33, 0.2) !important;}
+.lightyellow-bg-hover{background: transparent;}
+.lightyellow-bg-hover:hover{background: #e6aa21 !important;}
+
+.lightgreen-color{color: #a5d179 !important;}
+.lightgreen-color-hover{color: transparent }
+.lightgreen-color-hover:hover{color: #a5d179 !important;}
+.lightgreen-bg{background: #a5d179 !important;}
+.lightgreen-bg-trans{background:rgba(165,209,121,.2) !important;}
+.lightgreen-bg-hover{background: transparent;}
+.lightgreen-bg-hover:hover{background: #a5d179 !important;}
+
+.lightblue-color{color: #009bde !important;}
+.lightblue-color-hover{color: transparent }
+.lightblue-color-hover:hover{color: #009bde !important;}
+.lightblue-bg{background: #009bde !important;}
+.lightblue-bg-trans{background:rgba(0,155,222,.2) !important;}
+.lightblue-bg-hover{background: transparent;}
+.lightblue-bg-hover:hover{background: #009bde !important;}
+
+.orangered-color {color: #d8473a !important;}
+.orangered-color-hover {color: inherit;}
+.orangered-color-hover:hover {color: #d8473a !important;}
+.orangered-bg {background: #d8473a !important;}
+.orangered-bg-trans {background: rgba(216, 71, 58, 0.2) !important;}
+.orangered-bg-hover { background: transparent;}
+.orangered-bg-hover:hover {background: #d8473a !important;}
+
+.lightgreen-arrow.slick-slider .slick-arrow:hover{color: #a5d179 !important;}
+.lightblue-arrow.slick-slider .slick-arrow:hover{color: #009bde !important;}
+.orangered-arrow.slick-slider .slick-arrow:hover{color: #d8473a !important;}

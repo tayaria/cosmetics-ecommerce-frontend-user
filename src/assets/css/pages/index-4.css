@@ -1,0 +1,120 @@
+/*****************************
+37 - Pages - Home - 4
+*****************************/
+
+.header-section--home-4 .header-top-area .header-top-info {
+    margin-left: 300px
+}
+
+.top-absolute-sticky-logo {
+    position: absolute;
+    height: 121px;
+    background: #009bde;
+    width: 90%;
+    text-align: center;
+    z-index: 99;
+    top: -51px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-sticky-area.is-sticky .top-absolute-sticky-logo {
+    visibility: hidden;
+    opacity: 0
+}
+
+.pos-relative {
+    position: relative;
+}
+
+.gray-light-bg.bg-absolute {
+    position: absolute;
+    height: 555px;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.header-logo__color {
+    text-align: center;
+}
+
+.header-logo__color--home-4 {
+    background: #009bde;
+    line-height: 70px;
+    height: 70px;
+}
+
+.header-logo.header-logo__color.header-logo__color--home-4 a {
+    display: block;
+}
+
+.header-top-info-right.header-top-info-right--home-3, 
+.header-top-info-right.header-top-info-right--home-4 {
+    display: flex;
+    margin-right: 200px;
+}
+
+.header-cart.header-cart--home-3,
+.header-cart.header-cart--home-4 {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.home--3 .header-logo {
+    text-align: left;
+}
+
+.header-section--home-3 .header-sticky-area,
+.header-section--home-4 .header-sticky-area {
+    margin-top: 0;
+}
+
+.hero-slider--home-4 {
+    margin-bottom: 0 !important;
+}
+
+.promo-section--4 .row .col {
+    padding: 0 !important;
+}
+
+.promo-section--4 .single-promo-item {
+    margin-bottom: 0;
+}
+
+.testimonial-items--home-4 .testi-quote::before {
+    color: #009bde;
+}
+
+.testimonial-items--home-4 .slick-dots li.slick-active button {
+    background: #009bde;
+}
+
+.product-desc {
+    font-size: 15px;
+    color: #888787;
+    line-height: 25px;
+    padding: 20px 0;
+    margin: 0;
+    display: block;
+}
+
+.slider-dot-center.slick-slider .slick-dots {
+    justify-content: center;
+}
+
+
+#related-product-catagory-section{
+    padding-top: 93px;
+    margin-bottom: 90px;
+}
+
+#featured-product-catagory-section{
+    margin-bottom: 60px;
+}
+
+
+
+

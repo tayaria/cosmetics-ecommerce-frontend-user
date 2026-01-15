@@ -1,0 +1,48 @@
+/*****************************
+16 - Components - Slick Nav Customize
+*****************************/
+
+/*::::::::::::::: Slicknav Mobile Menu CSS :::::::::::::::::*/
+.slicknav_menu {
+    background: #333;
+    margin: 0 20px;
+}
+
+.slicknav_nav {
+    padding: 0 10px;
+}
+
+.slicknav_nav li {
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
+}
+
+.slicknav_nav li:last-child {
+    border: none;
+}
+
+.slicknav_item {
+    position: relative;
+}
+
+.slicknav_item span {
+    position: absolute;
+    right: calc(0% + 10px);
+}
+
+.slicknav_collapsed .slicknav_item span {
+    position: absolute;
+    right: calc(0% + 20px);
+}
+
+.slicknav_menu .slicknav_icon {
+    display: none;
+}
+
+.slicknav_nav .slicknav_row:hover,
+.slicknav_nav a:hover {
+    background: none;
+}
+
+.slicknav_nav a:hover {
+    color: #a8ca01;
+}

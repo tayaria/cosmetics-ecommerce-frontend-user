@@ -1,0 +1,126 @@
+/*****************************
+14 - Components - Form
+*****************************/
+
+.single-form {
+    margin-top: 30px;
+}
+
+.single-form label{
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.single-form select, 
+.single-form textarea, 
+.single-form input {
+    width: 100%;
+    font-size: 14px;
+    height: 40px;
+    color: #333;
+    border: 1px solid #e5e5e5;
+    padding: 0 15px;
+    margin-top: 12px;
+    outline: none;
+}
+
+.single-form textarea{
+    height: 120px;
+}
+
+.checkbox_input{
+    display: none;
+}
+
+.custom-checkbox p,
+.checkbox__label {
+    position: relative;
+    padding-left: 45px;
+}
+
+.checkbox__type-check {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ddd;
+    top: 4.5px;
+    left: 0;
+    display: inline-block
+}
+
+.checkbox__type-check::before{
+    position: absolute;
+    content: "\f00c";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    font-size: 12px;
+    color: #fff;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    opacity: 0;
+    transition: opacity .2s;
+}
+
+.checkbox__type-radio{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #e6aa21;
+    top: 4.5px;
+    left: 0;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.checkbox__type-radio::before{
+    position: absolute;
+    content: "";
+    height: 10px;
+    width: 10px;
+    background-color: #e6aa21;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    opacity: 0;
+    transition: opacity .3s;
+    border-radius: 50%;
+}
+
+.checkbox_input:checked ~ .checkbox__label .checkbox__type-check{
+    background: #e6aa21;
+}
+.checkbox_input:checked ~ .checkbox__label .checkbox__type-check::before{
+    opacity: 1;
+    
+}
+
+.checkbox_input:checked ~ .checkbox__label .checkbox__type-radio{
+    background: #fff;
+}
+
+.checkbox_input:checked ~ .checkbox__label .checkbox__type-radio::before{
+    opacity: 1;
+    
+}
+
+.login-register-wrapper {
+    border: 2px solid #e5e5e5;
+    padding: 25px 30px;
+}
+
+.login-register-wrapper p a{
+    color: #e6aa21;
+}
+
+.search-form {
+    display: flex;
+}
+
+.search-form input{
+    border: 1px solid #333;
+    border-right: transparent;
+    padding: 10px 15px;
+    width: 100%;
+}

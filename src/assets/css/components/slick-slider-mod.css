@@ -1,0 +1,34 @@
+/*****************************
+15 - Components - Slick Slider Customize
+*****************************/
+
+
+/*::::::::::::::: Slick Slider CSS :::::::::::::::::*/
+.slick-dots {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+}
+
+.slick-dots li {
+    margin: 0 0.25rem;
+}
+
+.slick-dots li button {
+    display: block;
+    width: 18px;
+    height: 4px;
+    padding: 0;
+    border: none;
+    background: #252525;
+    text-indent: -9999px;
+    transition: .3s ease-in;
+}
+
+.slick-dots li.slick-active button {
+    background: #e6aa21;
+}
