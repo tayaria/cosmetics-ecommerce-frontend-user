@@ -64,8 +64,8 @@ A modern, responsive Angular application for the customer-facing interface of a 
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/cosmetics-user-frontend.git
-cd cosmetics-user-frontend
+git clone https://github.com/tayaria/cosmetics-ecommerce-frontend-user.git
+cd cosmetics-ecommerce-frontend-user
 ```
 
 ### 2. Install dependencies
